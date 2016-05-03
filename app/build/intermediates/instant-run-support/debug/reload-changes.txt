@@ -1,0 +1,7 @@
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/ch/cpnv/cpnvsports/R$drawable$override.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/ch/cpnv/cpnvsports/R$layout$override.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/ch/cpnv/cpnvsports/R$integer$override.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/ch/cpnv/cpnvsports/R$string$override.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/ch/cpnv/cpnvsports/R$id$override.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/ch/cpnv/cpnvsports/R$mipmap$override.class

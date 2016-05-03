@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CPNVSports</string>
-    <string name="app_version">00-Base</string>
+    <string name="app_version">01-Person</string>
 
     <string name="cmd1Text">Bouton 1</string>
     <string name="cmd2Text">Bouton 2</string>

@@ -185,7 +185,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">CPNVSports</string>
-    <string name="app_version">00-Base</string>
+    <string name="app_version">01-Person</string>
     <string name="cmd1Text">Bouton 1</string>
     <string name="cmd2Text">Bouton 2</string>
     <string name="cmd3Text">Bouton 3</string>

@@ -1589,7 +1589,8 @@ containing a value of this type.
         public static final int title=0x7f0c002c;
         public static final int title_template=0x7f0c002f;
         public static final int topPanel=0x7f0c002e;
-        public static final int txtOutput=0x7f0c0053;
+        public static final int txtInputText=0x7f0c0053;
+        public static final int txtOutput=0x7f0c0054;
         public static final int up=0x7f0c0008;
         public static final int useLogo=0x7f0c0012;
         public static final int withText=0x7f0c001a;

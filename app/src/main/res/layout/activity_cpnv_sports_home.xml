@@ -47,6 +47,11 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInputText" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,5 +63,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </ScrollView>
+
 
 </LinearLayout>

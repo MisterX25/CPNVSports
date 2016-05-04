@@ -482,7 +482,8 @@ int id textSpacerNoButtons 0x7f0c0033
 int id title 0x7f0c002c
 int id title_template 0x7f0c002f
 int id topPanel 0x7f0c002e
-int id txtOutput 0x7f0c0053
+int id txtInputText 0x7f0c0053
+int id txtOutput 0x7f0c0054
 int id up 0x7f0c0008
 int id useLogo 0x7f0c0012
 int id withText 0x7f0c001a

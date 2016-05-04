@@ -4,29 +4,44 @@
     api-level="19"
     density="mdpi"
     format="7"
-    timestamp="1462270421773514000" >
+    timestamp="1462346412815291000"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="252" />
+        duration="200" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="759" />
     <task
         name="instant-run-transform"
-        duration="64" />
+        duration="42" />
     <task
         name="verifier"
-        duration="13" />
+        duration="3" />
 
     <artifact
-        location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="1462270421773514000" >
+    <build timestamp="1462346352896238000" >
         <artifact
             location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1462346374401193000"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/builds/debug/1462346374401193000/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1462346412815291000"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

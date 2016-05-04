@@ -186,10 +186,10 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">CPNVSports</string>
     <string name="app_version">01-Person</string>
-    <string name="cmd1Text">Bouton 1</string>
-    <string name="cmd2Text">Bouton 2</string>
-    <string name="cmd3Text">Bouton 3</string>
-    <string name="cmd4Text">Bouton 4</string>
+    <string name="cmd1Text">vCard</string>
+    <string name="cmd2Text">Nom</string>
+    <string name="cmd3Text">Tél</string>
+    <string name="cmd4Text">Clear</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

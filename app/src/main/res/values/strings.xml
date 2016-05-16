@@ -2,8 +2,8 @@
     <string name="app_name">CPNVSports</string>
     <string name="app_version">03-FullTeam</string>
 
-    <string name="cmd1Text">Student Team</string>
-    <string name="cmd2Text">Teacher Team</string>
-    <string name="cmd3Text">Student</string>
-    <string name="cmd4Text">Teacher</string>
+    <string name="cmd1Text">S Team</string>
+    <string name="cmd2Text">T Team</string>
+    <string name="cmd3Text">Change (KO)</string>
+    <string name="cmd4Text">Change (OK)</string>
 </resources>

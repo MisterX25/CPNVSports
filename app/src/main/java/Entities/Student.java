@@ -28,7 +28,7 @@ public class Student extends Person
         String res = "Elève: "+super.getFirstname()+" "+super.getLastname();
         if (pseudo != null)
             res += " (aka "+pseudo+")";
-        res = res+", filière "+getClassName();
+        res = res+", classe "+getClassName();
         return res;
     }
 }

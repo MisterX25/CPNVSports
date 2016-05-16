@@ -4,7 +4,7 @@
     api-level="19"
     density="mdpi"
     format="7"
-    timestamp="1463408277740548000" >
+    timestamp="1463420391693274000" >
 
     <task
         name="javac"
@@ -20,18 +20,13 @@
         duration="0" />
 
     <artifact
-        location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="1463408211935366000" >
+    <build timestamp="1463420391693274000" >
         <artifact
             location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="1463408277740548000" >
-        <artifact
-            location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

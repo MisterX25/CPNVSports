@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e9d9ea9e0d4da66e233a877e4ad805a7b3a99dcc">
+        <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_591e64810e6740190d9e7dc2cac432e9dfe2a204.jar" />
+    </item>
+    <item
+        jar="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="efbf404b834bef2c83af31aa42ddca135aae33be">
+        <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/instant-run_75e7da471a0148c1c78799536beac9a3cc7784cb.jar" />
+    </item>
+    <item
+        jar="/Users/Xavier/Documents/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1_d948aecdf0b7b52c21d1fb55b5b1a5525e1004ae.jar" />
+    </item>
+    <item
+        jar="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.1.1_75e591caf1207c6cb942f028ae89082ffdd01d3b.jar" />
+    </item>
+    <item
+        jar="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1_638b0b3f7a2c75b94104b2ddcc7c3babf8f68c60.jar" />
+    </item>
+    <item
+        jar="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.1.1_794aa61ab8ab4d8e02d04a781c882ab12691d2ad.jar" />
+    </item>
+
+</items>

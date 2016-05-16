@@ -2,8 +2,8 @@
     <string name="app_name">CPNVSports</string>
     <string name="app_version">01-Person</string>
 
-    <string name="cmd1Text">vCard</string>
-    <string name="cmd2Text">Nom</string>
-    <string name="cmd3Text">Tél</string>
-    <string name="cmd4Text">Clear</string>
+    <string name="cmd1Text">Student Team</string>
+    <string name="cmd2Text">Teacher Team</string>
+    <string name="cmd3Text">Student</string>
+    <string name="cmd4Text">Teacher</string>
 </resources>

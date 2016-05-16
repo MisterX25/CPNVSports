@@ -9,9 +9,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.GregorianCalendar;
-
 import Entities.Person;
+import Entities.Student;
+import Entities.Teacher;
+import Entities.Team;
 import ch.cpnv.cpnvsports.R;
 
 
@@ -22,7 +23,9 @@ public class cpnvSportsHome extends Activity
     private TextView output; // handle on output zone
     private EditText input; // handle on input text box
     private Context context; // For toasts
-    private Person toto;
+    private Team theTeam;
+    private Teacher theTeacher;
+    private Student theStudent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +48,7 @@ public class cpnvSportsHome extends Activity
         btn.setOnClickListener(this);
 
         // Application data
-        toto=new Person("Toto","Lahoupette", new GregorianCalendar(1991,5,6));
+
     }
 
     @Override
@@ -54,30 +57,28 @@ public class cpnvSportsHome extends Activity
         Button clicked = (Button)btn;
         switch (clicked.getId())
         {
+
             case R.id.cmdButton1:
-                output.setText(toto.vCard());
+                theStudent = new Student("Joe","Dalton","SI-T1a");
+                theTeam = new Team("Dalton",theStudent);
+                output.setText("Student team:\n"+theTeam.dump());
                 break;
             case R.id.cmdButton2:
-                if (toto.setFullname(input.getText().toString()))
-                    output.setText("----- Carte mise à jour -----\n"+toto.vCard());
-                else
-                {
-                    Toast toast = Toast.makeText(context, "Format de nom invalide", Toast.LENGTH_SHORT);
-                    toast.show();
-                }
+                theTeacher = new Teacher("Lucky","Luke","Marshall office");
+                theTeam = new Team("Marshalls",theTeacher);
+                output.setText("Teacher team:\n"+theTeam.dump());
                 break;
             case R.id.cmdButton3:
-                if (toto.setPhoneNumber(input.getText().toString()))
-                    output.setText(output.getText()+"\n----- Carte mise à jour -----\n"+toto.vCard());
-                else
-                {
-                    Toast toast = Toast.makeText(context, "Format de numéro de téléphone invalide", Toast.LENGTH_SHORT);
-                    toast.show();
-                }
+                theStudent = new Student("Joe","Dalton","SI-T1a");
+                theStudent.setPseudo("Joey");
+                output.setText("Student participant\n"+theStudent.dump());
                 break;
             case R.id.cmdButton4:
-                output.setText("");
+                theTeacher = new Teacher("Lucky","Luke","Marshall office");
+                theTeacher.setPseudo("QuickDraw");
+                output.setText("Teacher participant\n"+theTeacher.dump());
                 break;
+
         }
     }
 }

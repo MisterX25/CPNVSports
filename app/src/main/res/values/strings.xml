@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CPNVSports</string>
-    <string name="app_version">01-Person</string>
+    <string name="app_version">02-Participant</string>
 
     <string name="cmd1Text">Student Team</string>
     <string name="cmd2Text">Teacher Team</string>

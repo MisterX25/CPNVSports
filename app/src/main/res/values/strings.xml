@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">CPNVSports</string>
-    <string name="app_version">03-FullTeam</string>
+    <string name="app_version">04-Games</string>
 
-    <string name="cmd1Text">S Team</string>
-    <string name="cmd2Text">T Team</string>
-    <string name="cmd3Text">Change (KO)</string>
-    <string name="cmd4Text">Change (OK)</string>
+    <string name="cmd1Text">Participants</string>
+    <string name="cmd2Text">Games</string>
+    <string name="cmd3Text">Best</string>
+    <string name="cmd4Text"> </string>
 </resources>

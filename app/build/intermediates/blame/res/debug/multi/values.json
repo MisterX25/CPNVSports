@@ -1927,8 +1927,8 @@
                     "startLine": 187,
                     "startColumn": 4,
                     "startOffset": 26283,
-                    "endColumn": 51,
-                    "endOffset": 26330
+                    "endColumn": 48,
+                    "endOffset": 26327
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/strings.xml"
@@ -1938,18 +1938,18 @@
                 "to": {
                     "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 26335,
-                    "endColumn": 43,
-                    "endOffset": 26374
+                    "startOffset": 26332,
+                    "endColumn": 49,
+                    "endOffset": 26377
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 117,
-                        "endColumn": 43,
-                        "endOffset": 156
+                        "startOffset": 114,
+                        "endColumn": 49,
+                        "endOffset": 159
                     }
                 }
             },
@@ -1957,18 +1957,18 @@
                 "to": {
                     "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 26379,
-                    "endColumn": 43,
-                    "endOffset": 26418
+                    "startOffset": 26382,
+                    "endColumn": 42,
+                    "endOffset": 26420
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 161,
-                        "endColumn": 43,
-                        "endOffset": 200
+                        "startOffset": 164,
+                        "endColumn": 42,
+                        "endOffset": 202
                     }
                 }
             },
@@ -1976,33 +1976,47 @@
                 "to": {
                     "startLine": 190,
                     "startColumn": 4,
-                    "startOffset": 26423,
-                    "endColumn": 48,
-                    "endOffset": 26467
+                    "startOffset": 26425,
+                    "endColumn": 41,
+                    "endOffset": 26462
                 },
                 "from": {
-                    "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/strings.xml"
+                    "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 41,
+                        "endOffset": 244
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 191,
                     "startColumn": 4,
-                    "startOffset": 26472,
-                    "endColumn": 48,
-                    "endOffset": 26516
+                    "startOffset": 26467,
+                    "endColumn": 38,
+                    "endOffset": 26501
                 },
                 "from": {
-                    "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/strings.xml"
+                    "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 38,
+                        "endOffset": 283
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 192,
                     "startColumn": 4,
-                    "startOffset": 26521,
+                    "startOffset": 26506,
                     "endColumn": 77,
-                    "endOffset": 26594
+                    "endOffset": 26579
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2012,9 +2026,9 @@
                 "to": {
                     "startLine": 193,
                     "startColumn": 4,
-                    "startOffset": 26599,
+                    "startOffset": 26584,
                     "endColumn": 89,
-                    "endOffset": 26684
+                    "endOffset": 26669
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2024,9 +2038,9 @@
                 "to": {
                     "startLine": 194,
                     "startColumn": 4,
-                    "startOffset": 26689,
+                    "startOffset": 26674,
                     "endColumn": 87,
-                    "endOffset": 26772
+                    "endOffset": 26757
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2036,9 +2050,9 @@
                 "to": {
                     "startLine": 195,
                     "startColumn": 4,
-                    "startOffset": 26777,
+                    "startOffset": 26762,
                     "endColumn": 95,
-                    "endOffset": 26868
+                    "endOffset": 26853
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2048,10 +2062,10 @@
                 "to": {
                     "startLine": 196,
                     "startColumn": 4,
-                    "startOffset": 26873,
+                    "startOffset": 26858,
                     "endLine": 198,
                     "endColumn": 12,
-                    "endOffset": 26998
+                    "endOffset": 26983
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/src/main/res/values/styles.xml"
@@ -2061,10 +2075,10 @@
                 "to": {
                     "startLine": 199,
                     "startColumn": 4,
-                    "startOffset": 27003,
+                    "startOffset": 26988,
                     "endLine": 205,
                     "endColumn": 12,
-                    "endOffset": 27499
+                    "endOffset": 27484
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2074,9 +2088,9 @@
                 "to": {
                     "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 27504,
+                    "startOffset": 27489,
                     "endColumn": 88,
-                    "endOffset": 27588
+                    "endOffset": 27573
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2086,10 +2100,10 @@
                 "to": {
                     "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 27593,
+                    "startOffset": 27578,
                     "endLine": 210,
                     "endColumn": 12,
-                    "endOffset": 27835
+                    "endOffset": 27820
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2099,10 +2113,10 @@
                 "to": {
                     "startLine": 211,
                     "startColumn": 4,
-                    "startOffset": 27840,
+                    "startOffset": 27825,
                     "endLine": 214,
                     "endColumn": 12,
-                    "endOffset": 28116
+                    "endOffset": 28101
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2112,10 +2126,10 @@
                 "to": {
                     "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 28121,
+                    "startOffset": 28106,
                     "endLine": 219,
                     "endColumn": 12,
-                    "endOffset": 28401
+                    "endOffset": 28386
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2125,10 +2139,10 @@
                 "to": {
                     "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 28406,
+                    "startOffset": 28391,
                     "endLine": 225,
                     "endColumn": 12,
-                    "endOffset": 28794
+                    "endOffset": 28779
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2138,10 +2152,10 @@
                 "to": {
                     "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 28799,
+                    "startOffset": 28784,
                     "endLine": 232,
                     "endColumn": 12,
-                    "endOffset": 29271
+                    "endOffset": 29256
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2151,10 +2165,10 @@
                 "to": {
                     "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 29276,
+                    "startOffset": 29261,
                     "endLine": 236,
                     "endColumn": 12,
-                    "endOffset": 29493
+                    "endOffset": 29478
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2164,10 +2178,10 @@
                 "to": {
                     "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 29498,
+                    "startOffset": 29483,
                     "endLine": 240,
                     "endColumn": 12,
-                    "endOffset": 29715
+                    "endOffset": 29700
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2177,10 +2191,10 @@
                 "to": {
                     "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 29720,
+                    "startOffset": 29705,
                     "endLine": 245,
                     "endColumn": 12,
-                    "endOffset": 29983
+                    "endOffset": 29968
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2190,10 +2204,10 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 29988,
+                    "startOffset": 29973,
                     "endLine": 249,
                     "endColumn": 12,
-                    "endOffset": 30210
+                    "endOffset": 30195
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2203,10 +2217,10 @@
                 "to": {
                     "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 30215,
+                    "startOffset": 30200,
                     "endLine": 253,
                     "endColumn": 12,
-                    "endOffset": 30440
+                    "endOffset": 30425
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2216,10 +2230,10 @@
                 "to": {
                     "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 30445,
+                    "startOffset": 30430,
                     "endLine": 257,
                     "endColumn": 12,
-                    "endOffset": 30670
+                    "endOffset": 30655
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2229,10 +2243,10 @@
                 "to": {
                     "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 30675,
+                    "startOffset": 30660,
                     "endLine": 261,
                     "endColumn": 12,
-                    "endOffset": 30900
+                    "endOffset": 30885
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2242,10 +2256,10 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 30905,
+                    "startOffset": 30890,
                     "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 31130
+                    "endOffset": 31115
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2255,10 +2269,10 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 31135,
+                    "startOffset": 31120,
                     "endLine": 269,
                     "endColumn": 12,
-                    "endOffset": 31357
+                    "endOffset": 31342
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2268,10 +2282,10 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 31362,
+                    "startOffset": 31347,
                     "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 31596
+                    "endOffset": 31581
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2281,10 +2295,10 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 31601,
+                    "startOffset": 31586,
                     "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 31822
+                    "endOffset": 31807
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2294,10 +2308,10 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 31827,
+                    "startOffset": 31812,
                     "endLine": 281,
                     "endColumn": 12,
-                    "endOffset": 32067
+                    "endOffset": 32052
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2307,10 +2321,10 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 32072,
+                    "startOffset": 32057,
                     "endLine": 283,
                     "endColumn": 12,
-                    "endOffset": 32197
+                    "endOffset": 32182
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2320,10 +2334,10 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 32202,
+                    "startOffset": 32187,
                     "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 32327
+                    "endOffset": 32312
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2333,10 +2347,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 32332,
+                    "startOffset": 32317,
                     "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 32557
+                    "endOffset": 32542
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2346,10 +2360,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 32562,
+                    "startOffset": 32547,
                     "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 32805
+                    "endOffset": 32790
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2359,10 +2373,10 @@
                 "to": {
                     "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 32810,
+                    "startOffset": 32795,
                     "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 33024
+                    "endOffset": 33009
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2372,10 +2386,10 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 33029,
+                    "startOffset": 33014,
                     "endLine": 302,
                     "endColumn": 12,
-                    "endOffset": 33307
+                    "endOffset": 33292
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2385,10 +2399,10 @@
                 "to": {
                     "startLine": 303,
                     "startColumn": 4,
-                    "startOffset": 33312,
+                    "startOffset": 33297,
                     "endLine": 306,
                     "endColumn": 12,
-                    "endOffset": 33515
+                    "endOffset": 33500
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2398,10 +2412,10 @@
                 "to": {
                     "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 33520,
+                    "startOffset": 33505,
                     "endLine": 309,
                     "endColumn": 12,
-                    "endOffset": 33646
+                    "endOffset": 33631
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2411,10 +2425,10 @@
                 "to": {
                     "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 33651,
+                    "startOffset": 33636,
                     "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 33873
+                    "endOffset": 33858
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2424,10 +2438,10 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 33878,
+                    "startOffset": 33863,
                     "endLine": 317,
                     "endColumn": 12,
-                    "endOffset": 34119
+                    "endOffset": 34104
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2437,10 +2451,10 @@
                 "to": {
                     "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 34124,
+                    "startOffset": 34109,
                     "endLine": 321,
                     "endColumn": 12,
-                    "endOffset": 34344
+                    "endOffset": 34329
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2450,10 +2464,10 @@
                 "to": {
                     "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 34349,
+                    "startOffset": 34334,
                     "endLine": 325,
                     "endColumn": 12,
-                    "endOffset": 34593
+                    "endOffset": 34578
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2463,10 +2477,10 @@
                 "to": {
                     "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 34598,
+                    "startOffset": 34583,
                     "endLine": 329,
                     "endColumn": 12,
-                    "endOffset": 34814
+                    "endOffset": 34799
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2476,10 +2490,10 @@
                 "to": {
                     "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 34819,
+                    "startOffset": 34804,
                     "endLine": 333,
                     "endColumn": 12,
-                    "endOffset": 35059
+                    "endOffset": 35044
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2489,10 +2503,10 @@
                 "to": {
                     "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 35064,
+                    "startOffset": 35049,
                     "endLine": 338,
                     "endColumn": 12,
-                    "endOffset": 35354
+                    "endOffset": 35339
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2502,10 +2516,10 @@
                 "to": {
                     "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 35359,
+                    "startOffset": 35344,
                     "endLine": 341,
                     "endColumn": 12,
-                    "endOffset": 35576
+                    "endOffset": 35561
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2515,10 +2529,10 @@
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 35581,
+                    "startOffset": 35566,
                     "endLine": 344,
                     "endColumn": 12,
-                    "endOffset": 35814
+                    "endOffset": 35799
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2528,10 +2542,10 @@
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 35819,
+                    "startOffset": 35804,
                     "endLine": 347,
                     "endColumn": 12,
-                    "endOffset": 36028
+                    "endOffset": 36013
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2541,10 +2555,10 @@
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 36033,
+                    "startOffset": 36018,
                     "endLine": 350,
                     "endColumn": 12,
-                    "endOffset": 36258
+                    "endOffset": 36243
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2554,10 +2568,10 @@
                 "to": {
                     "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 36263,
+                    "startOffset": 36248,
                     "endLine": 353,
                     "endColumn": 12,
-                    "endOffset": 36481
+                    "endOffset": 36466
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2567,10 +2581,10 @@
                 "to": {
                     "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 36486,
+                    "startOffset": 36471,
                     "endLine": 356,
                     "endColumn": 12,
-                    "endOffset": 36696
+                    "endOffset": 36681
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2580,10 +2594,10 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 36701,
+                    "startOffset": 36686,
                     "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 36904
+                    "endOffset": 36889
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2593,10 +2607,10 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 36909,
+                    "startOffset": 36894,
                     "endLine": 361,
                     "endColumn": 12,
-                    "endOffset": 37028
+                    "endOffset": 37013
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2606,10 +2620,10 @@
                 "to": {
                     "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 37033,
+                    "startOffset": 37018,
                     "endLine": 363,
                     "endColumn": 12,
-                    "endOffset": 37152
+                    "endOffset": 37137
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2619,9 +2633,9 @@
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 37157,
+                    "startOffset": 37142,
                     "endColumn": 104,
-                    "endOffset": 37257
+                    "endOffset": 37242
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2631,9 +2645,9 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 37262,
+                    "startOffset": 37247,
                     "endColumn": 116,
-                    "endOffset": 37374
+                    "endOffset": 37359
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2643,10 +2657,10 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 37379,
+                    "startOffset": 37364,
                     "endLine": 368,
                     "endColumn": 12,
-                    "endOffset": 37588
+                    "endOffset": 37573
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2656,10 +2670,10 @@
                 "to": {
                     "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 37593,
+                    "startOffset": 37578,
                     "endLine": 370,
                     "endColumn": 12,
-                    "endOffset": 37734
+                    "endOffset": 37719
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2669,10 +2683,10 @@
                 "to": {
                     "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 37739,
+                    "startOffset": 37724,
                     "endLine": 372,
                     "endColumn": 12,
-                    "endOffset": 37874
+                    "endOffset": 37859
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2682,10 +2696,10 @@
                 "to": {
                     "startLine": 373,
                     "startColumn": 4,
-                    "startOffset": 37879,
+                    "startOffset": 37864,
                     "endLine": 374,
                     "endColumn": 12,
-                    "endOffset": 37960
+                    "endOffset": 37945
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2695,10 +2709,10 @@
                 "to": {
                     "startLine": 375,
                     "startColumn": 4,
-                    "startOffset": 37965,
+                    "startOffset": 37950,
                     "endLine": 379,
                     "endColumn": 12,
-                    "endOffset": 38308
+                    "endOffset": 38293
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2708,9 +2722,9 @@
                 "to": {
                     "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 38313,
+                    "startOffset": 38298,
                     "endColumn": 87,
-                    "endOffset": 38396
+                    "endOffset": 38381
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2720,10 +2734,10 @@
                 "to": {
                     "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 38401,
+                    "startOffset": 38386,
                     "endLine": 384,
                     "endColumn": 12,
-                    "endOffset": 38626
+                    "endOffset": 38611
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2733,10 +2747,10 @@
                 "to": {
                     "startLine": 385,
                     "startColumn": 4,
-                    "startOffset": 38631,
+                    "startOffset": 38616,
                     "endLine": 390,
                     "endColumn": 12,
-                    "endOffset": 39028
+                    "endOffset": 39013
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2746,10 +2760,10 @@
                 "to": {
                     "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 39033,
+                    "startOffset": 39018,
                     "endLine": 394,
                     "endColumn": 12,
-                    "endOffset": 39261
+                    "endOffset": 39246
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2759,9 +2773,9 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 39266,
+                    "startOffset": 39251,
                     "endColumn": 81,
-                    "endOffset": 39343
+                    "endOffset": 39328
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2771,10 +2785,10 @@
                 "to": {
                     "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 39348,
+                    "startOffset": 39333,
                     "endLine": 397,
                     "endColumn": 12,
-                    "endOffset": 39441
+                    "endOffset": 39426
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2784,10 +2798,10 @@
                 "to": {
                     "startLine": 398,
                     "startColumn": 4,
-                    "startOffset": 39446,
+                    "startOffset": 39431,
                     "endLine": 408,
                     "endColumn": 12,
-                    "endOffset": 40058
+                    "endOffset": 40043
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2797,9 +2811,9 @@
                 "to": {
                     "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 40063,
+                    "startOffset": 40048,
                     "endColumn": 99,
-                    "endOffset": 40158
+                    "endOffset": 40143
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2809,10 +2823,10 @@
                 "to": {
                     "startLine": 410,
                     "startColumn": 4,
-                    "startOffset": 40163,
+                    "startOffset": 40148,
                     "endLine": 413,
                     "endColumn": 12,
-                    "endOffset": 40394
+                    "endOffset": 40379
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2822,10 +2836,10 @@
                 "to": {
                     "startLine": 414,
                     "startColumn": 4,
-                    "startOffset": 40399,
+                    "startOffset": 40384,
                     "endLine": 419,
                     "endColumn": 12,
-                    "endOffset": 40802
+                    "endOffset": 40787
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2835,10 +2849,10 @@
                 "to": {
                     "startLine": 420,
                     "startColumn": 4,
-                    "startOffset": 40807,
+                    "startOffset": 40792,
                     "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 41041
+                    "endOffset": 41026
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2848,9 +2862,9 @@
                 "to": {
                     "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 41046,
+                    "startOffset": 41031,
                     "endColumn": 93,
-                    "endOffset": 41135
+                    "endOffset": 41120
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2860,9 +2874,9 @@
                 "to": {
                     "startLine": 425,
                     "startColumn": 4,
-                    "startOffset": 41140,
+                    "startOffset": 41125,
                     "endColumn": 57,
-                    "endOffset": 41193
+                    "endOffset": 41178
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2872,10 +2886,10 @@
                 "to": {
                     "startLine": 426,
                     "startColumn": 4,
-                    "startOffset": 41198,
+                    "startOffset": 41183,
                     "endLine": 429,
                     "endColumn": 12,
-                    "endOffset": 41430
+                    "endOffset": 41415
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2885,10 +2899,10 @@
                 "to": {
                     "startLine": 430,
                     "startColumn": 4,
-                    "startOffset": 41435,
+                    "startOffset": 41420,
                     "endLine": 456,
                     "endColumn": 12,
-                    "endOffset": 43430
+                    "endOffset": 43415
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2898,10 +2912,10 @@
                 "to": {
                     "startLine": 457,
                     "startColumn": 4,
-                    "startOffset": 43435,
+                    "startOffset": 43420,
                     "endLine": 460,
                     "endColumn": 12,
-                    "endOffset": 43672
+                    "endOffset": 43657
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2911,10 +2925,10 @@
                 "to": {
                     "startLine": 461,
                     "startColumn": 4,
-                    "startOffset": 43677,
+                    "startOffset": 43662,
                     "endLine": 488,
                     "endColumn": 12,
-                    "endOffset": 45850
+                    "endOffset": 45835
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2924,10 +2938,10 @@
                 "to": {
                     "startLine": 489,
                     "startColumn": 4,
-                    "startOffset": 45855,
+                    "startOffset": 45840,
                     "endLine": 633,
                     "endColumn": 12,
-                    "endOffset": 55037
+                    "endOffset": 55022
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2937,10 +2951,10 @@
                 "to": {
                     "startLine": 634,
                     "startColumn": 4,
-                    "startOffset": 55042,
+                    "startOffset": 55027,
                     "endLine": 654,
                     "endColumn": 12,
-                    "endOffset": 56236
+                    "endOffset": 56221
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2950,10 +2964,10 @@
                 "to": {
                     "startLine": 655,
                     "startColumn": 4,
-                    "startOffset": 56241,
+                    "startOffset": 56226,
                     "endLine": 799,
                     "endColumn": 12,
-                    "endOffset": 65533
+                    "endOffset": 65518
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2963,10 +2977,10 @@
                 "to": {
                     "startLine": 800,
                     "startColumn": 4,
-                    "startOffset": 65538,
+                    "startOffset": 65523,
                     "endLine": 820,
                     "endColumn": 12,
-                    "endOffset": 66746
+                    "endOffset": 66731
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2976,10 +2990,10 @@
                 "to": {
                     "startLine": 821,
                     "startColumn": 4,
-                    "startOffset": 66751,
+                    "startOffset": 66736,
                     "endLine": 841,
                     "endColumn": 12,
-                    "endOffset": 67869
+                    "endOffset": 67854
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -2989,10 +3003,10 @@
                 "to": {
                     "startLine": 842,
                     "startColumn": 4,
-                    "startOffset": 67874,
+                    "startOffset": 67859,
                     "endLine": 846,
                     "endColumn": 12,
-                    "endOffset": 68125
+                    "endOffset": 68110
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3002,10 +3016,10 @@
                 "to": {
                     "startLine": 847,
                     "startColumn": 4,
-                    "startOffset": 68130,
+                    "startOffset": 68115,
                     "endLine": 851,
                     "endColumn": 12,
-                    "endOffset": 68361
+                    "endOffset": 68346
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3015,10 +3029,10 @@
                 "to": {
                     "startLine": 852,
                     "startColumn": 4,
-                    "startOffset": 68366,
+                    "startOffset": 68351,
                     "endLine": 861,
                     "endColumn": 12,
-                    "endOffset": 68908
+                    "endOffset": 68893
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3028,10 +3042,10 @@
                 "to": {
                     "startLine": 862,
                     "startColumn": 4,
-                    "startOffset": 68913,
+                    "startOffset": 68898,
                     "endLine": 870,
                     "endColumn": 12,
-                    "endOffset": 69402
+                    "endOffset": 69387
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3041,10 +3055,10 @@
                 "to": {
                     "startLine": 871,
                     "startColumn": 4,
-                    "startOffset": 69407,
+                    "startOffset": 69392,
                     "endLine": 881,
                     "endColumn": 12,
-                    "endOffset": 70075
+                    "endOffset": 70060
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3054,10 +3068,10 @@
                 "to": {
                     "startLine": 882,
                     "startColumn": 4,
-                    "startOffset": 70080,
+                    "startOffset": 70065,
                     "endLine": 885,
                     "endColumn": 12,
-                    "endOffset": 70290
+                    "endOffset": 70275
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3067,10 +3081,10 @@
                 "to": {
                     "startLine": 886,
                     "startColumn": 4,
-                    "startOffset": 70295,
+                    "startOffset": 70280,
                     "endLine": 892,
                     "endColumn": 12,
-                    "endOffset": 70818
+                    "endOffset": 70803
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3080,10 +3094,10 @@
                 "to": {
                     "startLine": 893,
                     "startColumn": 4,
-                    "startOffset": 70823,
+                    "startOffset": 70808,
                     "endLine": 900,
                     "endColumn": 12,
-                    "endOffset": 71382
+                    "endOffset": 71367
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3093,10 +3107,10 @@
                 "to": {
                     "startLine": 901,
                     "startColumn": 4,
-                    "startOffset": 71387,
+                    "startOffset": 71372,
                     "endLine": 907,
                     "endColumn": 12,
-                    "endOffset": 71757
+                    "endOffset": 71742
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3106,10 +3120,10 @@
                 "to": {
                     "startLine": 908,
                     "startColumn": 4,
-                    "startOffset": 71762,
+                    "startOffset": 71747,
                     "endLine": 914,
                     "endColumn": 12,
-                    "endOffset": 72290
+                    "endOffset": 72275
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3119,10 +3133,10 @@
                 "to": {
                     "startLine": 915,
                     "startColumn": 4,
-                    "startOffset": 72295,
+                    "startOffset": 72280,
                     "endLine": 923,
                     "endColumn": 12,
-                    "endOffset": 72828
+                    "endOffset": 72813
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3132,10 +3146,10 @@
                 "to": {
                     "startLine": 924,
                     "startColumn": 4,
-                    "startOffset": 72833,
+                    "startOffset": 72818,
                     "endLine": 926,
                     "endColumn": 12,
-                    "endOffset": 72985
+                    "endOffset": 72970
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3145,10 +3159,10 @@
                 "to": {
                     "startLine": 927,
                     "startColumn": 4,
-                    "startOffset": 72990,
+                    "startOffset": 72975,
                     "endLine": 929,
                     "endColumn": 12,
-                    "endOffset": 73129
+                    "endOffset": 73114
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3158,10 +3172,10 @@
                 "to": {
                     "startLine": 930,
                     "startColumn": 4,
-                    "startOffset": 73134,
+                    "startOffset": 73119,
                     "endLine": 934,
                     "endColumn": 12,
-                    "endOffset": 73449
+                    "endOffset": 73434
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3171,10 +3185,10 @@
                 "to": {
                     "startLine": 935,
                     "startColumn": 4,
-                    "startOffset": 73454,
+                    "startOffset": 73439,
                     "endLine": 938,
                     "endColumn": 12,
-                    "endOffset": 73619
+                    "endOffset": 73604
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3184,10 +3198,10 @@
                 "to": {
                     "startLine": 939,
                     "startColumn": 4,
-                    "startOffset": 73624,
+                    "startOffset": 73609,
                     "endLine": 941,
                     "endColumn": 12,
-                    "endOffset": 73760
+                    "endOffset": 73745
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3197,10 +3211,10 @@
                 "to": {
                     "startLine": 942,
                     "startColumn": 4,
-                    "startOffset": 73765,
+                    "startOffset": 73750,
                     "endLine": 944,
                     "endColumn": 12,
-                    "endOffset": 73889
+                    "endOffset": 73874
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3210,10 +3224,10 @@
                 "to": {
                     "startLine": 945,
                     "startColumn": 4,
-                    "startOffset": 73894,
+                    "startOffset": 73879,
                     "endLine": 948,
                     "endColumn": 12,
-                    "endOffset": 74188
+                    "endOffset": 74173
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3223,10 +3237,10 @@
                 "to": {
                     "startLine": 949,
                     "startColumn": 4,
-                    "startOffset": 74193,
+                    "startOffset": 74178,
                     "endLine": 952,
                     "endColumn": 12,
-                    "endOffset": 74491
+                    "endOffset": 74476
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3236,10 +3250,10 @@
                 "to": {
                     "startLine": 953,
                     "startColumn": 4,
-                    "startOffset": 74496,
+                    "startOffset": 74481,
                     "endLine": 960,
                     "endColumn": 12,
-                    "endOffset": 75052
+                    "endOffset": 75037
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3249,10 +3263,10 @@
                 "to": {
                     "startLine": 961,
                     "startColumn": 4,
-                    "startOffset": 75057,
+                    "startOffset": 75042,
                     "endLine": 965,
                     "endColumn": 12,
-                    "endOffset": 75314
+                    "endOffset": 75299
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3262,10 +3276,10 @@
                 "to": {
                     "startLine": 966,
                     "startColumn": 4,
-                    "startOffset": 75319,
+                    "startOffset": 75304,
                     "endLine": 972,
                     "endColumn": 12,
-                    "endOffset": 75664
+                    "endOffset": 75649
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3275,10 +3289,10 @@
                 "to": {
                     "startLine": 973,
                     "startColumn": 4,
-                    "startOffset": 75669,
+                    "startOffset": 75654,
                     "endLine": 978,
                     "endColumn": 12,
-                    "endOffset": 76017
+                    "endOffset": 76002
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3288,10 +3302,10 @@
                 "to": {
                     "startLine": 979,
                     "startColumn": 4,
-                    "startOffset": 76022,
+                    "startOffset": 76007,
                     "endLine": 983,
                     "endColumn": 12,
-                    "endOffset": 76344
+                    "endOffset": 76329
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3301,10 +3315,10 @@
                 "to": {
                     "startLine": 984,
                     "startColumn": 4,
-                    "startOffset": 76349,
+                    "startOffset": 76334,
                     "endLine": 987,
                     "endColumn": 12,
-                    "endOffset": 76650
+                    "endOffset": 76635
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3314,10 +3328,10 @@
                 "to": {
                     "startLine": 988,
                     "startColumn": 4,
-                    "startOffset": 76655,
+                    "startOffset": 76640,
                     "endLine": 992,
                     "endColumn": 12,
-                    "endOffset": 76912
+                    "endOffset": 76897
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3327,10 +3341,10 @@
                 "to": {
                     "startLine": 993,
                     "startColumn": 4,
-                    "startOffset": 76917,
+                    "startOffset": 76902,
                     "endLine": 994,
                     "endColumn": 12,
-                    "endOffset": 77037
+                    "endOffset": 77022
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3340,10 +3354,10 @@
                 "to": {
                     "startLine": 995,
                     "startColumn": 4,
-                    "startOffset": 77042,
+                    "startOffset": 77027,
                     "endLine": 996,
                     "endColumn": 12,
-                    "endOffset": 77164
+                    "endOffset": 77149
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3353,10 +3367,10 @@
                 "to": {
                     "startLine": 997,
                     "startColumn": 4,
-                    "startOffset": 77169,
+                    "startOffset": 77154,
                     "endLine": 999,
                     "endColumn": 12,
-                    "endOffset": 77403
+                    "endOffset": 77388
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3366,10 +3380,10 @@
                 "to": {
                     "startLine": 1000,
                     "startColumn": 4,
-                    "startOffset": 77408,
+                    "startOffset": 77393,
                     "endLine": 1002,
                     "endColumn": 12,
-                    "endOffset": 77614
+                    "endOffset": 77599
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3379,10 +3393,10 @@
                 "to": {
                     "startLine": 1003,
                     "startColumn": 4,
-                    "startOffset": 77619,
+                    "startOffset": 77604,
                     "endLine": 1004,
                     "endColumn": 12,
-                    "endOffset": 77733
+                    "endOffset": 77718
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3392,10 +3406,10 @@
                 "to": {
                     "startLine": 1005,
                     "startColumn": 4,
-                    "startOffset": 77738,
+                    "startOffset": 77723,
                     "endLine": 1008,
                     "endColumn": 12,
-                    "endOffset": 77926
+                    "endOffset": 77911
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3405,10 +3419,10 @@
                 "to": {
                     "startLine": 1009,
                     "startColumn": 4,
-                    "startOffset": 77931,
+                    "startOffset": 77916,
                     "endLine": 1015,
                     "endColumn": 12,
-                    "endOffset": 78381
+                    "endOffset": 78366
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3418,10 +3432,10 @@
                 "to": {
                     "startLine": 1016,
                     "startColumn": 4,
-                    "startOffset": 78386,
+                    "startOffset": 78371,
                     "endLine": 1019,
                     "endColumn": 12,
-                    "endOffset": 78630
+                    "endOffset": 78615
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3431,10 +3445,10 @@
                 "to": {
                     "startLine": 1020,
                     "startColumn": 4,
-                    "startOffset": 78635,
+                    "startOffset": 78620,
                     "endLine": 1022,
                     "endColumn": 12,
-                    "endOffset": 78752
+                    "endOffset": 78737
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3444,10 +3458,10 @@
                 "to": {
                     "startLine": 1023,
                     "startColumn": 4,
-                    "startOffset": 78757,
+                    "startOffset": 78742,
                     "endLine": 1026,
                     "endColumn": 12,
-                    "endOffset": 79011
+                    "endOffset": 78996
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3457,10 +3471,10 @@
                 "to": {
                     "startLine": 1027,
                     "startColumn": 4,
-                    "startOffset": 79016,
+                    "startOffset": 79001,
                     "endLine": 1028,
                     "endColumn": 12,
-                    "endOffset": 79124
+                    "endOffset": 79109
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3470,10 +3484,10 @@
                 "to": {
                     "startLine": 1029,
                     "startColumn": 4,
-                    "startOffset": 79129,
+                    "startOffset": 79114,
                     "endLine": 1032,
                     "endColumn": 12,
-                    "endOffset": 79311
+                    "endOffset": 79296
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3483,10 +3497,10 @@
                 "to": {
                     "startLine": 1033,
                     "startColumn": 4,
-                    "startOffset": 79316,
+                    "startOffset": 79301,
                     "endLine": 1034,
                     "endColumn": 12,
-                    "endOffset": 79413
+                    "endOffset": 79398
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3496,10 +3510,10 @@
                 "to": {
                     "startLine": 1035,
                     "startColumn": 4,
-                    "startOffset": 79418,
+                    "startOffset": 79403,
                     "endLine": 1040,
                     "endColumn": 12,
-                    "endOffset": 79857
+                    "endOffset": 79842
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3509,10 +3523,10 @@
                 "to": {
                     "startLine": 1041,
                     "startColumn": 4,
-                    "startOffset": 79862,
+                    "startOffset": 79847,
                     "endLine": 1042,
                     "endColumn": 12,
-                    "endOffset": 79981
+                    "endOffset": 79966
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3522,10 +3536,10 @@
                 "to": {
                     "startLine": 1043,
                     "startColumn": 4,
-                    "startOffset": 79986,
+                    "startOffset": 79971,
                     "endLine": 1046,
                     "endColumn": 12,
-                    "endOffset": 80266
+                    "endOffset": 80251
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3535,10 +3549,10 @@
                 "to": {
                     "startLine": 1047,
                     "startColumn": 4,
-                    "startOffset": 80271,
+                    "startOffset": 80256,
                     "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 81153
+                    "endOffset": 81138
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3548,10 +3562,10 @@
                 "to": {
                     "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 81158,
+                    "startOffset": 81143,
                     "endLine": 1064,
                     "endColumn": 12,
-                    "endOffset": 81440
+                    "endOffset": 81425
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3561,10 +3575,10 @@
                 "to": {
                     "startLine": 1065,
                     "startColumn": 4,
-                    "startOffset": 81445,
+                    "startOffset": 81430,
                     "endLine": 1069,
                     "endColumn": 12,
-                    "endOffset": 81770
+                    "endOffset": 81755
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3574,10 +3588,10 @@
                 "to": {
                     "startLine": 1070,
                     "startColumn": 4,
-                    "startOffset": 81775,
+                    "startOffset": 81760,
                     "endLine": 1084,
                     "endColumn": 12,
-                    "endOffset": 82690
+                    "endOffset": 82675
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3587,10 +3601,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 82695,
+                    "startOffset": 82680,
                     "endLine": 1087,
                     "endColumn": 12,
-                    "endOffset": 82862
+                    "endOffset": 82847
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3600,10 +3614,10 @@
                 "to": {
                     "startLine": 1088,
                     "startColumn": 4,
-                    "startOffset": 82867,
+                    "startOffset": 82852,
                     "endLine": 1092,
                     "endColumn": 12,
-                    "endOffset": 83198
+                    "endOffset": 83183
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3613,10 +3627,10 @@
                 "to": {
                     "startLine": 1093,
                     "startColumn": 4,
-                    "startOffset": 83203,
+                    "startOffset": 83188,
                     "endLine": 1102,
                     "endColumn": 12,
-                    "endOffset": 83864
+                    "endOffset": 83849
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3626,10 +3640,10 @@
                 "to": {
                     "startLine": 1103,
                     "startColumn": 4,
-                    "startOffset": 83869,
+                    "startOffset": 83854,
                     "endLine": 1107,
                     "endColumn": 12,
-                    "endOffset": 84149
+                    "endOffset": 84134
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3639,10 +3653,10 @@
                 "to": {
                     "startLine": 1108,
                     "startColumn": 4,
-                    "startOffset": 84154,
+                    "startOffset": 84139,
                     "endLine": 1145,
                     "endColumn": 12,
-                    "endOffset": 87038
+                    "endOffset": 87023
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3652,10 +3666,10 @@
                 "to": {
                     "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 87043,
+                    "startOffset": 87028,
                     "endLine": 1184,
                     "endColumn": 12,
-                    "endOffset": 90068
+                    "endOffset": 90053
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3665,10 +3679,10 @@
                 "to": {
                     "startLine": 1185,
                     "startColumn": 4,
-                    "startOffset": 90073,
+                    "startOffset": 90058,
                     "endLine": 1194,
                     "endColumn": 12,
-                    "endOffset": 90708
+                    "endOffset": 90693
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3678,10 +3692,10 @@
                 "to": {
                     "startLine": 1195,
                     "startColumn": 4,
-                    "startOffset": 90713,
+                    "startOffset": 90698,
                     "endLine": 1203,
                     "endColumn": 12,
-                    "endOffset": 91332
+                    "endOffset": 91317
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3691,10 +3705,10 @@
                 "to": {
                     "startLine": 1204,
                     "startColumn": 4,
-                    "startOffset": 91337,
+                    "startOffset": 91322,
                     "endLine": 1207,
                     "endColumn": 12,
-                    "endOffset": 91561
+                    "endOffset": 91546
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3704,10 +3718,10 @@
                 "to": {
                     "startLine": 1208,
                     "startColumn": 4,
-                    "startOffset": 91566,
+                    "startOffset": 91551,
                     "endLine": 1211,
                     "endColumn": 12,
-                    "endOffset": 91899
+                    "endOffset": 91884
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3717,10 +3731,10 @@
                 "to": {
                     "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 91904,
+                    "startOffset": 91889,
                     "endLine": 1214,
                     "endColumn": 12,
-                    "endOffset": 92051
+                    "endOffset": 92036
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3730,10 +3744,10 @@
                 "to": {
                     "startLine": 1215,
                     "startColumn": 4,
-                    "startOffset": 92056,
+                    "startOffset": 92041,
                     "endLine": 1217,
                     "endColumn": 12,
-                    "endOffset": 92222
+                    "endOffset": 92207
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3743,10 +3757,10 @@
                 "to": {
                     "startLine": 1218,
                     "startColumn": 4,
-                    "startOffset": 92227,
+                    "startOffset": 92212,
                     "endLine": 1220,
                     "endColumn": 12,
-                    "endOffset": 92389
+                    "endOffset": 92374
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3756,10 +3770,10 @@
                 "to": {
                     "startLine": 1221,
                     "startColumn": 4,
-                    "startOffset": 92394,
+                    "startOffset": 92379,
                     "endLine": 1224,
                     "endColumn": 12,
-                    "endOffset": 92632
+                    "endOffset": 92617
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3769,10 +3783,10 @@
                 "to": {
                     "startLine": 1225,
                     "startColumn": 4,
-                    "startOffset": 92637,
+                    "startOffset": 92622,
                     "endLine": 1227,
                     "endColumn": 12,
-                    "endOffset": 92802
+                    "endOffset": 92787
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3782,10 +3796,10 @@
                 "to": {
                     "startLine": 1228,
                     "startColumn": 4,
-                    "startOffset": 92807,
+                    "startOffset": 92792,
                     "endLine": 1230,
                     "endColumn": 12,
-                    "endOffset": 92975
+                    "endOffset": 92960
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3795,10 +3809,10 @@
                 "to": {
                     "startLine": 1231,
                     "startColumn": 4,
-                    "startOffset": 92980,
+                    "startOffset": 92965,
                     "endLine": 1233,
                     "endColumn": 12,
-                    "endOffset": 93146
+                    "endOffset": 93131
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3808,10 +3822,10 @@
                 "to": {
                     "startLine": 1234,
                     "startColumn": 4,
-                    "startOffset": 93151,
+                    "startOffset": 93136,
                     "endLine": 1237,
                     "endColumn": 12,
-                    "endOffset": 93420
+                    "endOffset": 93405
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3821,10 +3835,10 @@
                 "to": {
                     "startLine": 1238,
                     "startColumn": 4,
-                    "startOffset": 93425,
+                    "startOffset": 93410,
                     "endLine": 1240,
                     "endColumn": 12,
-                    "endOffset": 93619
+                    "endOffset": 93604
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3834,10 +3848,10 @@
                 "to": {
                     "startLine": 1241,
                     "startColumn": 4,
-                    "startOffset": 93624,
+                    "startOffset": 93609,
                     "endLine": 1243,
                     "endColumn": 12,
-                    "endOffset": 93866
+                    "endOffset": 93851
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3847,9 +3861,9 @@
                 "to": {
                     "startLine": 1244,
                     "startColumn": 4,
-                    "startOffset": 93871,
+                    "startOffset": 93856,
                     "endColumn": 83,
-                    "endOffset": 93950
+                    "endOffset": 93935
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3859,9 +3873,9 @@
                 "to": {
                     "startLine": 1245,
                     "startColumn": 4,
-                    "startOffset": 93955,
+                    "startOffset": 93940,
                     "endColumn": 95,
-                    "endOffset": 94046
+                    "endOffset": 94031
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3871,9 +3885,9 @@
                 "to": {
                     "startLine": 1246,
                     "startColumn": 4,
-                    "startOffset": 94051,
+                    "startOffset": 94036,
                     "endColumn": 95,
-                    "endOffset": 94142
+                    "endOffset": 94127
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3883,9 +3897,9 @@
                 "to": {
                     "startLine": 1247,
                     "startColumn": 4,
-                    "startOffset": 94147,
+                    "startOffset": 94132,
                     "endColumn": 97,
-                    "endOffset": 94240
+                    "endOffset": 94225
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3895,9 +3909,9 @@
                 "to": {
                     "startLine": 1248,
                     "startColumn": 4,
-                    "startOffset": 94245,
+                    "startOffset": 94230,
                     "endColumn": 99,
-                    "endOffset": 94340
+                    "endOffset": 94325
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3907,9 +3921,9 @@
                 "to": {
                     "startLine": 1249,
                     "startColumn": 4,
-                    "startOffset": 94345,
+                    "startOffset": 94330,
                     "endColumn": 101,
-                    "endOffset": 94442
+                    "endOffset": 94427
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3919,9 +3933,9 @@
                 "to": {
                     "startLine": 1250,
                     "startColumn": 4,
-                    "startOffset": 94447,
+                    "startOffset": 94432,
                     "endColumn": 101,
-                    "endOffset": 94544
+                    "endOffset": 94529
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3931,9 +3945,9 @@
                 "to": {
                     "startLine": 1251,
                     "startColumn": 4,
-                    "startOffset": 94549,
+                    "startOffset": 94534,
                     "endColumn": 101,
-                    "endOffset": 94646
+                    "endOffset": 94631
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3943,9 +3957,9 @@
                 "to": {
                     "startLine": 1252,
                     "startColumn": 4,
-                    "startOffset": 94651,
+                    "startOffset": 94636,
                     "endColumn": 101,
-                    "endOffset": 94748
+                    "endOffset": 94733
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3955,9 +3969,9 @@
                 "to": {
                     "startLine": 1253,
                     "startColumn": 4,
-                    "startOffset": 94753,
+                    "startOffset": 94738,
                     "endColumn": 101,
-                    "endOffset": 94850
+                    "endOffset": 94835
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3967,9 +3981,9 @@
                 "to": {
                     "startLine": 1254,
                     "startColumn": 4,
-                    "startOffset": 94855,
+                    "startOffset": 94840,
                     "endColumn": 99,
-                    "endOffset": 94950
+                    "endOffset": 94935
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3979,9 +3993,9 @@
                 "to": {
                     "startLine": 1255,
                     "startColumn": 4,
-                    "startOffset": 94955,
+                    "startOffset": 94940,
                     "endColumn": 95,
-                    "endOffset": 95046
+                    "endOffset": 95031
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -3991,9 +4005,9 @@
                 "to": {
                     "startLine": 1256,
                     "startColumn": 4,
-                    "startOffset": 95051,
+                    "startOffset": 95036,
                     "endColumn": 111,
-                    "endOffset": 95158
+                    "endOffset": 95143
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4003,9 +4017,9 @@
                 "to": {
                     "startLine": 1257,
                     "startColumn": 4,
-                    "startOffset": 95163,
+                    "startOffset": 95148,
                     "endColumn": 128,
-                    "endOffset": 95287
+                    "endOffset": 95272
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4015,9 +4029,9 @@
                 "to": {
                     "startLine": 1258,
                     "startColumn": 4,
-                    "startOffset": 95292,
+                    "startOffset": 95277,
                     "endColumn": 122,
-                    "endOffset": 95410
+                    "endOffset": 95395
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4027,10 +4041,10 @@
                 "to": {
                     "startLine": 1259,
                     "startColumn": 4,
-                    "startOffset": 95415,
+                    "startOffset": 95400,
                     "endLine": 1260,
                     "endColumn": 12,
-                    "endOffset": 95564
+                    "endOffset": 95549
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4040,10 +4054,10 @@
                 "to": {
                     "startLine": 1261,
                     "startColumn": 4,
-                    "startOffset": 95569,
+                    "startOffset": 95554,
                     "endLine": 1262,
                     "endColumn": 12,
-                    "endOffset": 95718
+                    "endOffset": 95703
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4053,9 +4067,9 @@
                 "to": {
                     "startLine": 1263,
                     "startColumn": 4,
-                    "startOffset": 95723,
+                    "startOffset": 95708,
                     "endColumn": 97,
-                    "endOffset": 95816
+                    "endOffset": 95801
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4065,9 +4079,9 @@
                 "to": {
                     "startLine": 1264,
                     "startColumn": 4,
-                    "startOffset": 95821,
+                    "startOffset": 95806,
                     "endColumn": 113,
-                    "endOffset": 95930
+                    "endOffset": 95915
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4077,9 +4091,9 @@
                 "to": {
                     "startLine": 1265,
                     "startColumn": 4,
-                    "startOffset": 95935,
+                    "startOffset": 95920,
                     "endColumn": 93,
-                    "endOffset": 96024
+                    "endOffset": 96009
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4089,10 +4103,10 @@
                 "to": {
                     "startLine": 1266,
                     "startColumn": 4,
-                    "startOffset": 96029,
+                    "startOffset": 96014,
                     "endLine": 1267,
                     "endColumn": 12,
-                    "endOffset": 96164
+                    "endOffset": 96149
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4102,10 +4116,10 @@
                 "to": {
                     "startLine": 1268,
                     "startColumn": 4,
-                    "startOffset": 96169,
+                    "startOffset": 96154,
                     "endLine": 1269,
                     "endColumn": 12,
-                    "endOffset": 96298
+                    "endOffset": 96283
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4115,9 +4129,9 @@
                 "to": {
                     "startLine": 1270,
                     "startColumn": 4,
-                    "startOffset": 96303,
+                    "startOffset": 96288,
                     "endColumn": 95,
-                    "endOffset": 96394
+                    "endOffset": 96379
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4127,9 +4141,9 @@
                 "to": {
                     "startLine": 1271,
                     "startColumn": 4,
-                    "startOffset": 96399,
+                    "startOffset": 96384,
                     "endColumn": 111,
-                    "endOffset": 96506
+                    "endOffset": 96491
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4139,9 +4153,9 @@
                 "to": {
                     "startLine": 1272,
                     "startColumn": 4,
-                    "startOffset": 96511,
+                    "startOffset": 96496,
                     "endColumn": 99,
-                    "endOffset": 96606
+                    "endOffset": 96591
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4151,9 +4165,9 @@
                 "to": {
                     "startLine": 1273,
                     "startColumn": 4,
-                    "startOffset": 96611,
+                    "startOffset": 96596,
                     "endColumn": 115,
-                    "endOffset": 96722
+                    "endOffset": 96707
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4163,9 +4177,9 @@
                 "to": {
                     "startLine": 1274,
                     "startColumn": 4,
-                    "startOffset": 96727,
+                    "startOffset": 96712,
                     "endColumn": 95,
-                    "endOffset": 96818
+                    "endOffset": 96803
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4175,9 +4189,9 @@
                 "to": {
                     "startLine": 1275,
                     "startColumn": 4,
-                    "startOffset": 96823,
+                    "startOffset": 96808,
                     "endColumn": 111,
-                    "endOffset": 96930
+                    "endOffset": 96915
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4187,10 +4201,10 @@
                 "to": {
                     "startLine": 1276,
                     "startColumn": 4,
-                    "startOffset": 96935,
+                    "startOffset": 96920,
                     "endLine": 1277,
                     "endColumn": 12,
-                    "endOffset": 97070
+                    "endOffset": 97055
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4200,10 +4214,10 @@
                 "to": {
                     "startLine": 1278,
                     "startColumn": 4,
-                    "startOffset": 97075,
+                    "startOffset": 97060,
                     "endLine": 1279,
                     "endColumn": 12,
-                    "endOffset": 97218
+                    "endOffset": 97203
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4213,10 +4227,10 @@
                 "to": {
                     "startLine": 1280,
                     "startColumn": 4,
-                    "startOffset": 97223,
+                    "startOffset": 97208,
                     "endLine": 1281,
                     "endColumn": 12,
-                    "endOffset": 97382
+                    "endOffset": 97367
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4226,10 +4240,10 @@
                 "to": {
                     "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 97387,
+                    "startOffset": 97372,
                     "endLine": 1283,
                     "endColumn": 12,
-                    "endOffset": 97524
+                    "endOffset": 97509
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4239,10 +4253,10 @@
                 "to": {
                     "startLine": 1284,
                     "startColumn": 4,
-                    "startOffset": 97529,
+                    "startOffset": 97514,
                     "endLine": 1285,
                     "endColumn": 12,
-                    "endOffset": 97682
+                    "endOffset": 97667
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4252,10 +4266,10 @@
                 "to": {
                     "startLine": 1286,
                     "startColumn": 4,
-                    "startOffset": 97687,
+                    "startOffset": 97672,
                     "endLine": 1287,
                     "endColumn": 12,
-                    "endOffset": 97832
+                    "endOffset": 97817
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4265,9 +4279,9 @@
                 "to": {
                     "startLine": 1288,
                     "startColumn": 4,
-                    "startOffset": 97837,
+                    "startOffset": 97822,
                     "endColumn": 140,
-                    "endOffset": 97973
+                    "endOffset": 97958
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4277,10 +4291,10 @@
                 "to": {
                     "startLine": 1289,
                     "startColumn": 4,
-                    "startOffset": 97978,
+                    "startOffset": 97963,
                     "endLine": 1290,
                     "endColumn": 12,
-                    "endOffset": 98117
+                    "endOffset": 98102
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4290,9 +4304,9 @@
                 "to": {
                     "startLine": 1291,
                     "startColumn": 4,
-                    "startOffset": 98122,
+                    "startOffset": 98107,
                     "endColumn": 134,
-                    "endOffset": 98252
+                    "endOffset": 98237
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4302,10 +4316,10 @@
                 "to": {
                     "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 98257,
+                    "startOffset": 98242,
                     "endLine": 1293,
                     "endColumn": 12,
-                    "endOffset": 98388
+                    "endOffset": 98373
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4315,10 +4329,10 @@
                 "to": {
                     "startLine": 1294,
                     "startColumn": 4,
-                    "startOffset": 98393,
+                    "startOffset": 98378,
                     "endLine": 1295,
                     "endColumn": 12,
-                    "endOffset": 98530
+                    "endOffset": 98515
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4328,10 +4342,10 @@
                 "to": {
                     "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 98535,
+                    "startOffset": 98520,
                     "endLine": 1297,
                     "endColumn": 12,
-                    "endOffset": 98672
+                    "endOffset": 98657
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4341,9 +4355,9 @@
                 "to": {
                     "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 98677,
+                    "startOffset": 98662,
                     "endColumn": 111,
-                    "endOffset": 98784
+                    "endOffset": 98769
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4353,9 +4367,9 @@
                 "to": {
                     "startLine": 1299,
                     "startColumn": 4,
-                    "startOffset": 98789,
+                    "startOffset": 98774,
                     "endColumn": 139,
-                    "endOffset": 98924
+                    "endOffset": 98909
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4365,10 +4379,10 @@
                 "to": {
                     "startLine": 1300,
                     "startColumn": 4,
-                    "startOffset": 98929,
+                    "startOffset": 98914,
                     "endLine": 1301,
                     "endColumn": 12,
-                    "endOffset": 99070
+                    "endOffset": 99055
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4378,10 +4392,10 @@
                 "to": {
                     "startLine": 1302,
                     "startColumn": 4,
-                    "startOffset": 99075,
+                    "startOffset": 99060,
                     "endLine": 1303,
                     "endColumn": 12,
-                    "endOffset": 99214
+                    "endOffset": 99199
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4391,10 +4405,10 @@
                 "to": {
                     "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 99219,
+                    "startOffset": 99204,
                     "endLine": 1305,
                     "endColumn": 12,
-                    "endOffset": 99352
+                    "endOffset": 99337
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4404,9 +4418,9 @@
                 "to": {
                     "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 99357,
+                    "startOffset": 99342,
                     "endColumn": 65,
-                    "endOffset": 99418
+                    "endOffset": 99403
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4416,9 +4430,9 @@
                 "to": {
                     "startLine": 1307,
                     "startColumn": 4,
-                    "startOffset": 99423,
+                    "startOffset": 99408,
                     "endColumn": 89,
-                    "endOffset": 99508
+                    "endOffset": 99493
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4428,9 +4442,9 @@
                 "to": {
                     "startLine": 1308,
                     "startColumn": 4,
-                    "startOffset": 99513,
+                    "startOffset": 99498,
                     "endColumn": 79,
-                    "endOffset": 99588
+                    "endOffset": 99573
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4440,9 +4454,9 @@
                 "to": {
                     "startLine": 1309,
                     "startColumn": 4,
-                    "startOffset": 99593,
+                    "startOffset": 99578,
                     "endColumn": 91,
-                    "endOffset": 99680
+                    "endOffset": 99665
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4452,9 +4466,9 @@
                 "to": {
                     "startLine": 1310,
                     "startColumn": 4,
-                    "startOffset": 99685,
+                    "startOffset": 99670,
                     "endColumn": 97,
-                    "endOffset": 99778
+                    "endOffset": 99763
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4464,10 +4478,10 @@
                 "to": {
                     "startLine": 1311,
                     "startColumn": 4,
-                    "startOffset": 99783,
+                    "startOffset": 99768,
                     "endLine": 1312,
                     "endColumn": 12,
-                    "endOffset": 99888
+                    "endOffset": 99873
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4477,9 +4491,9 @@
                 "to": {
                     "startLine": 1313,
                     "startColumn": 4,
-                    "startOffset": 99893,
+                    "startOffset": 99878,
                     "endColumn": 77,
-                    "endOffset": 99966
+                    "endOffset": 99951
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4489,9 +4503,9 @@
                 "to": {
                     "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 99971,
+                    "startOffset": 99956,
                     "endColumn": 105,
-                    "endOffset": 100072
+                    "endOffset": 100057
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4501,9 +4515,9 @@
                 "to": {
                     "startLine": 1315,
                     "startColumn": 4,
-                    "startOffset": 100077,
+                    "startOffset": 100062,
                     "endColumn": 91,
-                    "endOffset": 100164
+                    "endOffset": 100149
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4513,9 +4527,9 @@
                 "to": {
                     "startLine": 1316,
                     "startColumn": 4,
-                    "startOffset": 100169,
+                    "startOffset": 100154,
                     "endColumn": 103,
-                    "endOffset": 100268
+                    "endOffset": 100253
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4525,9 +4539,9 @@
                 "to": {
                     "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 100273,
+                    "startOffset": 100258,
                     "endColumn": 109,
-                    "endOffset": 100378
+                    "endOffset": 100363
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4537,10 +4551,10 @@
                 "to": {
                     "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 100383,
+                    "startOffset": 100368,
                     "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 100500
+                    "endOffset": 100485
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4550,10 +4564,10 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 100505,
+                    "startOffset": 100490,
                     "endLine": 1323,
                     "endColumn": 12,
-                    "endOffset": 100663
+                    "endOffset": 100648
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4563,10 +4577,10 @@
                 "to": {
                     "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 100668,
+                    "startOffset": 100653,
                     "endLine": 1327,
                     "endColumn": 12,
-                    "endOffset": 100820
+                    "endOffset": 100805
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4576,9 +4590,9 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 100825,
+                    "startOffset": 100810,
                     "endColumn": 79,
-                    "endOffset": 100900
+                    "endOffset": 100885
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4588,9 +4602,9 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 100905,
+                    "startOffset": 100890,
                     "endColumn": 99,
-                    "endOffset": 101000
+                    "endOffset": 100985
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4600,9 +4614,9 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 101005,
+                    "startOffset": 100990,
                     "endColumn": 89,
-                    "endOffset": 101090
+                    "endOffset": 101075
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4612,9 +4626,9 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 101095,
+                    "startOffset": 101080,
                     "endColumn": 109,
-                    "endOffset": 101200
+                    "endOffset": 101185
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4624,9 +4638,9 @@
                 "to": {
                     "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 101205,
+                    "startOffset": 101190,
                     "endColumn": 91,
-                    "endOffset": 101292
+                    "endOffset": 101277
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4636,10 +4650,10 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 101297,
+                    "startOffset": 101282,
                     "endLine": 1334,
                     "endColumn": 12,
-                    "endOffset": 101392
+                    "endOffset": 101377
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4649,10 +4663,10 @@
                 "to": {
                     "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 101397,
+                    "startOffset": 101382,
                     "endLine": 1336,
                     "endColumn": 12,
-                    "endOffset": 101504
+                    "endOffset": 101489
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4662,10 +4676,10 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 101509,
+                    "startOffset": 101494,
                     "endLine": 1338,
                     "endColumn": 12,
-                    "endOffset": 101618
+                    "endOffset": 101603
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4675,10 +4689,10 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101623,
+                    "startOffset": 101608,
                     "endLine": 1340,
                     "endColumn": 12,
-                    "endOffset": 101734
+                    "endOffset": 101719
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4688,10 +4702,10 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 101739,
+                    "startOffset": 101724,
                     "endLine": 1342,
                     "endColumn": 12,
-                    "endOffset": 101850
+                    "endOffset": 101835
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4701,9 +4715,9 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 101855,
+                    "startOffset": 101840,
                     "endColumn": 93,
-                    "endOffset": 101944
+                    "endOffset": 101929
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4713,9 +4727,9 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 101949,
+                    "startOffset": 101934,
                     "endColumn": 113,
-                    "endOffset": 102058
+                    "endOffset": 102043
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4725,9 +4739,9 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 102063,
+                    "startOffset": 102048,
                     "endColumn": 117,
-                    "endOffset": 102176
+                    "endOffset": 102161
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4737,10 +4751,10 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 102181,
+                    "startOffset": 102166,
                     "endLine": 1347,
                     "endColumn": 12,
-                    "endOffset": 102278
+                    "endOffset": 102263
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4750,10 +4764,10 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 102283,
+                    "startOffset": 102268,
                     "endLine": 1349,
                     "endColumn": 12,
-                    "endOffset": 102398
+                    "endOffset": 102383
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4763,10 +4777,10 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102403,
+                    "startOffset": 102388,
                     "endLine": 1351,
                     "endColumn": 12,
-                    "endOffset": 102520
+                    "endOffset": 102505
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4776,9 +4790,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 102525,
+                    "startOffset": 102510,
                     "endColumn": 81,
-                    "endOffset": 102602
+                    "endOffset": 102587
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4788,9 +4802,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 102607,
+                    "startOffset": 102592,
                     "endColumn": 103,
-                    "endOffset": 102706
+                    "endOffset": 102691
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4800,9 +4814,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 102711,
+                    "startOffset": 102696,
                     "endColumn": 119,
-                    "endOffset": 102826
+                    "endOffset": 102811
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4812,9 +4826,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 102831,
+                    "startOffset": 102816,
                     "endColumn": 125,
-                    "endOffset": 102952
+                    "endOffset": 102937
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4824,9 +4838,9 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 102957,
+                    "startOffset": 102942,
                     "endColumn": 93,
-                    "endOffset": 103046
+                    "endOffset": 103031
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4836,9 +4850,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 103051,
+                    "startOffset": 103036,
                     "endColumn": 87,
-                    "endOffset": 103134
+                    "endOffset": 103119
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4848,9 +4862,9 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 103139,
+                    "startOffset": 103124,
                     "endColumn": 111,
-                    "endOffset": 103246
+                    "endOffset": 103231
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4860,9 +4874,9 @@
                 "to": {
                     "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 103251,
+                    "startOffset": 103236,
                     "endColumn": 115,
-                    "endOffset": 103362
+                    "endOffset": 103347
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4872,9 +4886,9 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103367,
+                    "startOffset": 103352,
                     "endColumn": 121,
-                    "endOffset": 103484
+                    "endOffset": 103469
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4884,9 +4898,9 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 103489,
+                    "startOffset": 103474,
                     "endColumn": 111,
-                    "endOffset": 103596
+                    "endOffset": 103581
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4896,10 +4910,10 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 103601,
+                    "startOffset": 103586,
                     "endLine": 1364,
                     "endColumn": 12,
-                    "endOffset": 103771
+                    "endOffset": 103756
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4909,9 +4923,9 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 103776,
+                    "startOffset": 103761,
                     "endColumn": 115,
-                    "endOffset": 103887
+                    "endOffset": 103872
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4921,10 +4935,10 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 103892,
+                    "startOffset": 103877,
                     "endLine": 1367,
                     "endColumn": 12,
-                    "endOffset": 103985
+                    "endOffset": 103970
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4934,10 +4948,10 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 103990,
+                    "startOffset": 103975,
                     "endLine": 1369,
                     "endColumn": 12,
-                    "endOffset": 104097
+                    "endOffset": 104082
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4947,10 +4961,10 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104102,
+                    "startOffset": 104087,
                     "endLine": 1371,
                     "endColumn": 12,
-                    "endOffset": 104221
+                    "endOffset": 104206
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4960,9 +4974,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104226,
+                    "startOffset": 104211,
                     "endColumn": 66,
-                    "endOffset": 104288
+                    "endOffset": 104273
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4972,10 +4986,10 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104293,
+                    "startOffset": 104278,
                     "endLine": 1374,
                     "endColumn": 12,
-                    "endOffset": 104414
+                    "endOffset": 104399
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4985,9 +4999,9 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104419,
+                    "startOffset": 104404,
                     "endColumn": 67,
-                    "endOffset": 104482
+                    "endOffset": 104467
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -4997,10 +5011,10 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104487,
+                    "startOffset": 104472,
                     "endLine": 1377,
                     "endColumn": 12,
-                    "endOffset": 104610
+                    "endOffset": 104595
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5010,10 +5024,10 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 104615,
+                    "startOffset": 104600,
                     "endLine": 1379,
                     "endColumn": 12,
-                    "endOffset": 104754
+                    "endOffset": 104739
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5023,10 +5037,10 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 104759,
+                    "startOffset": 104744,
                     "endLine": 1381,
                     "endColumn": 12,
-                    "endOffset": 104882
+                    "endOffset": 104867
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5036,9 +5050,9 @@
                 "to": {
                     "startLine": 1382,
                     "startColumn": 4,
-                    "startOffset": 104887,
+                    "startOffset": 104872,
                     "endColumn": 68,
-                    "endOffset": 104951
+                    "endOffset": 104936
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5048,9 +5062,9 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 104956,
+                    "startOffset": 104941,
                     "endColumn": 94,
-                    "endOffset": 105046
+                    "endOffset": 105031
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5060,9 +5074,9 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 105051,
+                    "startOffset": 105036,
                     "endColumn": 114,
-                    "endOffset": 105161
+                    "endOffset": 105146
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5072,9 +5086,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105166,
+                    "startOffset": 105151,
                     "endColumn": 112,
-                    "endOffset": 105274
+                    "endOffset": 105259
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5084,9 +5098,9 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105279,
+                    "startOffset": 105264,
                     "endColumn": 98,
-                    "endOffset": 105373
+                    "endOffset": 105358
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5096,9 +5110,9 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 105378,
+                    "startOffset": 105363,
                     "endColumn": 108,
-                    "endOffset": 105482
+                    "endOffset": 105467
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5108,9 +5122,9 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 105487,
+                    "startOffset": 105472,
                     "endColumn": 110,
-                    "endOffset": 105593
+                    "endOffset": 105578
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5120,9 +5134,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 105598,
+                    "startOffset": 105583,
                     "endColumn": 110,
-                    "endOffset": 105704
+                    "endOffset": 105689
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5132,9 +5146,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 105709,
+                    "startOffset": 105694,
                     "endColumn": 100,
-                    "endOffset": 105805
+                    "endOffset": 105790
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5144,9 +5158,9 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 105810,
+                    "startOffset": 105795,
                     "endColumn": 104,
-                    "endOffset": 105910
+                    "endOffset": 105895
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5156,10 +5170,10 @@
                 "to": {
                     "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 105915,
+                    "startOffset": 105900,
                     "endLine": 1393,
                     "endColumn": 12,
-                    "endOffset": 106022
+                    "endOffset": 106007
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5169,10 +5183,10 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 106027,
+                    "startOffset": 106012,
                     "endLine": 1395,
                     "endColumn": 12,
-                    "endOffset": 106152
+                    "endOffset": 106137
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5182,9 +5196,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106157,
+                    "startOffset": 106142,
                     "endColumn": 90,
-                    "endOffset": 106243
+                    "endOffset": 106228
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5194,9 +5208,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 106248,
+                    "startOffset": 106233,
                     "endColumn": 122,
-                    "endOffset": 106366
+                    "endOffset": 106351
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5206,10 +5220,10 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106371,
+                    "startOffset": 106356,
                     "endLine": 1399,
                     "endColumn": 12,
-                    "endOffset": 106478
+                    "endOffset": 106463
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5219,9 +5233,9 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 106483,
+                    "startOffset": 106468,
                     "endColumn": 85,
-                    "endOffset": 106564
+                    "endOffset": 106549
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5231,9 +5245,9 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 106569,
+                    "startOffset": 106554,
                     "endColumn": 103,
-                    "endOffset": 106668
+                    "endOffset": 106653
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5243,10 +5257,10 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 106673,
+                    "startOffset": 106658,
                     "endLine": 1403,
                     "endColumn": 12,
-                    "endOffset": 106776
+                    "endOffset": 106761
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5256,10 +5270,10 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 106781,
+                    "startOffset": 106766,
                     "endLine": 1405,
                     "endColumn": 12,
-                    "endOffset": 106876
+                    "endOffset": 106861
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5269,10 +5283,10 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 106881,
+                    "startOffset": 106866,
                     "endLine": 1407,
                     "endColumn": 12,
-                    "endOffset": 106994
+                    "endOffset": 106979
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5282,10 +5296,10 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 106999,
+                    "startOffset": 106984,
                     "endLine": 1409,
                     "endColumn": 12,
-                    "endOffset": 107098
+                    "endOffset": 107083
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5295,10 +5309,10 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 107103,
+                    "startOffset": 107088,
                     "endLine": 1411,
                     "endColumn": 12,
-                    "endOffset": 107202
+                    "endOffset": 107187
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5308,10 +5322,10 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 107207,
+                    "startOffset": 107192,
                     "endLine": 1413,
                     "endColumn": 12,
-                    "endOffset": 107328
+                    "endOffset": 107313
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5321,9 +5335,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 107333,
+                    "startOffset": 107318,
                     "endColumn": 87,
-                    "endOffset": 107416
+                    "endOffset": 107401
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5333,9 +5347,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 107421,
+                    "startOffset": 107406,
                     "endColumn": 89,
-                    "endOffset": 107506
+                    "endOffset": 107491
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5345,9 +5359,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 107511,
+                    "startOffset": 107496,
                     "endColumn": 109,
-                    "endOffset": 107616
+                    "endOffset": 107601
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5357,9 +5371,9 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 107621,
+                    "startOffset": 107606,
                     "endColumn": 83,
-                    "endOffset": 107700
+                    "endOffset": 107685
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5369,9 +5383,9 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 107705,
+                    "startOffset": 107690,
                     "endColumn": 53,
-                    "endOffset": 107754
+                    "endOffset": 107739
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5381,9 +5395,9 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 107759,
+                    "startOffset": 107744,
                     "endColumn": 121,
-                    "endOffset": 107876
+                    "endOffset": 107861
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5393,9 +5407,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 107881,
+                    "startOffset": 107866,
                     "endColumn": 105,
-                    "endOffset": 107982
+                    "endOffset": 107967
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5405,9 +5419,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 107987,
+                    "startOffset": 107972,
                     "endColumn": 109,
-                    "endOffset": 108092
+                    "endOffset": 108077
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5417,9 +5431,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 108097,
+                    "startOffset": 108082,
                     "endColumn": 83,
-                    "endOffset": 108176
+                    "endOffset": 108161
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"
@@ -5429,9 +5443,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 108181,
+                    "startOffset": 108166,
                     "endColumn": 125,
-                    "endOffset": 108302
+                    "endOffset": 108287
                 },
                 "from": {
                     "file": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml"

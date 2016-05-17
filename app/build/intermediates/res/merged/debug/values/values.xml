@@ -185,11 +185,11 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">CPNVSports</string>
-    <string name="app_version">03-FullTeam</string>
-    <string name="cmd1Text">S Team</string>
-    <string name="cmd2Text">T Team</string>
-    <string name="cmd3Text">Change (KO)</string>
-    <string name="cmd4Text">Change (OK)</string>
+    <string name="app_version">04-Games</string>
+    <string name="cmd1Text">Participants</string>
+    <string name="cmd2Text">Games</string>
+    <string name="cmd3Text">Best</string>
+    <string name="cmd4Text"> </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

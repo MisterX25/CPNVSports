@@ -44,7 +44,7 @@ public class Team extends Participant
      */
     @Override
     public String dump() {
-        String res = "Equipe: "+getPseudo()+", capitaine: "+getCaptain().dump()+"\nJoueurs:";
+        String res = "Equipe: "+getPseudo()+"\nCapitaine: "+getCaptain().dump()+"\nJoueurs:";
         int n=0;
         for (Person teammate: roster)
         {

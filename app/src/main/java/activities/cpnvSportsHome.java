@@ -10,8 +10,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
 import java.util.Random;
 
+import Entities.Participant;
 import Entities.Person;
 import Entities.Student;
 import Entities.Teacher;
@@ -33,6 +36,8 @@ public class cpnvSportsHome extends Activity
     private Team theStudentTeam;
     private ArrayList<Teacher> teachers;
     private ArrayList<Student> students;
+    private ArrayList<Participant> participants;
+
     private Random alea = new Random();
 
     @Override
@@ -41,6 +46,61 @@ public class cpnvSportsHome extends Activity
         setContentView(R.layout.activity_cpnv_sports_home);
 
         // Application data
+        initializeAppData();
+
+        // Initialize handles
+        output = (TextView)findViewById(R.id.txtOutput);
+        input = (EditText)findViewById(R.id.txtInputText);
+        context = getApplicationContext(); // This can go in the constructor because it does not depend on the view content
+
+        // define event handlers
+        btn=(Button)findViewById(R.id.cmdButton1);
+        btn.setOnClickListener(this);
+        btn=(Button)findViewById(R.id.cmdButton2);
+        btn.setOnClickListener(this);
+        btn=(Button)findViewById(R.id.cmdButton3);
+        btn.setOnClickListener(this);
+        btn=(Button)findViewById(R.id.cmdButton4);
+        btn.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View btn)
+    {
+
+        Button clicked = (Button)btn;
+        switch (clicked.getId())
+        {
+
+            case R.id.cmdButton1:
+                output.setText("Student team:\n"+theStudentTeam.dump());
+                break;
+            case R.id.cmdButton2:
+                output.setText("Teacher team:\n"+theTeacherTeam.dump());
+                break;
+            case R.id.cmdButton3:
+                if (theTeacherTeam.swapCaptain(teachers.get(alea.nextInt(teachers.size()))))
+                    output.setText("Teacher team:\n(Very lucky change of captain)\n"+theTeacherTeam.dump());
+                else
+                    output.setText("Teacher team:\n(Failed change of captain)\n"+theTeacherTeam.dump());
+                break;
+            case R.id.cmdButton4:
+                int rsize = theTeacherTeam.getRoster().size(); // number of players in the team
+                Person newCaptain = theTeacherTeam.getRoster().get(alea.nextInt(rsize)); // pick one at random
+                if (theTeacherTeam.swapCaptain(newCaptain))
+                    output.setText("Teacher team:\n(Successful change of captain)\n"+theTeacherTeam.dump());
+                else
+                    output.setText("BUG !!!!!");
+                break;
+
+        }
+    }
+
+    //=========================================== Private methods ==================================
+
+    private void initializeAppData()
+    {
         teachers = new ArrayList<Teacher>();
         students = new ArrayList<Student>();
 
@@ -145,63 +205,155 @@ public class cpnvSportsHome extends Activity
         students.add(new Student("Grady","Rowe","Media"));
         students.add(new Student("Eugenia","Vega","Media"));
 
+        // list of pseudos
+        String[] pseudos = {
+                "Toronto",
+                "Barnstaple",
+                "Aalst",
+                "San Giovanni Lipioni",
+                "Castelluccio Superiore",
+                "Liberchies",
+                "Wagga Wagga",
+                "Santa Luzia",
+                "Timkur",
+                "Harderwijk",
+                "Lampernisse",
+                "Glimes",
+                "Bargagli",
+                "Brussel",
+                "Drumheller",
+                "Edmundston",
+                "Greifswald",
+                "Satna",
+                "Vliermaalroot",
+                "Maintal",
+                "Yungay",
+                "Quilleco",
+                "Guben",
+                "Grouville",
+                "Padre las Casas",
+                "Saint-Georges",
+                "San Martino in Pensilis",
+                "Salisbury",
+                "New Haven",
+                "Worksop",
+                "Bersillies-l'Abbaye",
+                "Bayeux",
+                "Fulda",
+                "Diano Arentino",
+                "Haridwar",
+                "Wrigley",
+                "Piła",
+                "Pemberton",
+                "Wetzlar",
+                "Montebello",
+                "Herstappe",
+                "Igboho",
+                "Tufo",
+                "Sombreffe",
+                "Seilles",
+                "La Magdeleine",
+                "Saint-Denis-Bovesse",
+                "Stalhille",
+                "Bargagli",
+                "Independencia",
+                "Miami",
+                "Araban",
+                "Tobermory",
+                "Vellore",
+                "San Rafael",
+                "Dallas",
+                "Warwick",
+                "Kapolei",
+                "Birmingham",
+                "Unnao",
+                "Aalst",
+                "Panguipulli",
+                "Villers-la-Bonne-Eau",
+                "Zwijnaarde",
+                "Fort Simpson",
+                "Newport",
+                "Piancastagnaio",
+                "Brechin",
+                "San Pedro",
+                "Baunatal",
+                "Blieskastel",
+                "High Level",
+                "Quinte West",
+                "Marke",
+                "New Sarepta",
+                "Pinto",
+                "Würzburg",
+                "Bundaberg",
+                "Martello/Martell",
+                "Inverurie",
+                "Wambeek",
+                "Callander",
+                "Xhoris",
+                "Beauvais",
+                "Traralgon",
+                "Halifax",
+                "Moose Jaw",
+                "Portici",
+                "Ziano di Fiemme",
+                "Purmerend",
+                "Flin Flon",
+                "Ferlach",
+                "Broken Hill",
+                "Shimla",
+                "Kortessem",
+                "Santa Marina",
+                "Leffinge",
+                "Heusden",
+                "Beaumont",
+                "Chailly",
+                "Wergen",
+                "Patrok",
+                "Castor",
+                "Pollux"
+        };
+
+        // Initialise pseudos
+        Iterator<String> pseudo = Arrays.asList(pseudos).iterator();
+        for (Teacher t:teachers) t.setPseudo(pseudo.next());
+        for (Student s:students) s.setPseudo(pseudo.next());
+
         // two teams
         theTeacherTeam = new Team("X Men",teachers.get(alea.nextInt(teachers.size())));
         int tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
+        Teacher newTPlayer;
         for (int i=0; i< tsize; i++)
-            theTeacherTeam.newPlayer(teachers.get(alea.nextInt(teachers.size())));
+        {
+            do {
+                newTPlayer=teachers.get(alea.nextInt(teachers.size()));
+            } while (theTeacherTeam.getRoster().contains(newTPlayer)); // loop if we picked someone who is already in the team
+            theTeacherTeam.newPlayer(newTPlayer);
+        }
 
         theStudentTeam = new Team("Iron Men",students.get(alea.nextInt(students.size())));
         tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
+        Student newSPlayer;
         for (int i=0; i< tsize; i++)
-            theStudentTeam.newPlayer(students.get(alea.nextInt(students.size())));
-
-        // Initialize handles
-        output = (TextView)findViewById(R.id.txtOutput);
-        input = (EditText)findViewById(R.id.txtInputText);
-        context = getApplicationContext(); // This can go in the constructor because it does not depend on the view content
-
-        // define event handlers
-        btn=(Button)findViewById(R.id.cmdButton1);
-        btn.setOnClickListener(this);
-        btn=(Button)findViewById(R.id.cmdButton2);
-        btn.setOnClickListener(this);
-        btn=(Button)findViewById(R.id.cmdButton3);
-        btn.setOnClickListener(this);
-        btn=(Button)findViewById(R.id.cmdButton4);
-        btn.setOnClickListener(this);
-
-    }
-
-    @Override
-    public void onClick(View btn)
-    {
-
-        Button clicked = (Button)btn;
-        switch (clicked.getId())
         {
+            do {
+                newSPlayer=students.get(alea.nextInt(students.size()));
+            } while (theStudentTeam.getRoster().contains(newSPlayer)); // loop if we picked someone who is already in the team
+            theStudentTeam.newPlayer(newSPlayer);
+        }
 
-            case R.id.cmdButton1:
-                output.setText("Student team:\n"+theStudentTeam.dump());
-                break;
-            case R.id.cmdButton2:
-                output.setText("Teacher team:\n"+theTeacherTeam.dump());
-                break;
-            case R.id.cmdButton3:
-                if (theTeacherTeam.swapCaptain(teachers.get(alea.nextInt(teachers.size()))))
-                    output.setText("Teacher team:\n(Very lucky change of captain)\n"+theTeacherTeam.dump());
-                else
-                    output.setText("Teacher team:\n(Failed change of captain)\n"+theTeacherTeam.dump());
-                break;
-            case R.id.cmdButton4:
-                int rsize = theTeacherTeam.getRoster().size(); // number of players in the team
-                Person newCaptain = theTeacherTeam.getRoster().get(alea.nextInt(rsize)); // pick one at random
-                if (theTeacherTeam.swapCaptain(newCaptain))
-                    output.setText("Teacher team:\n(Successful change of captain)\n"+theTeacherTeam.dump());
-                else
-                    output.setText("BUG !!!!!");
-                break;
-
+        // Build list of participants
+        participants = new ArrayList<Participant>();
+        participants.add(theStudentTeam);
+        participants.add(theTeacherTeam);
+        for (Student s: students)
+        {
+            if (!theStudentTeam.getRoster().contains(s)) // make an individual participant
+                participants.add(s);
+        }
+        for (Teacher t: teachers)
+        {
+            if (!theTeacherTeam.getRoster().contains(t)) // make an individual participant
+                participants.add(t);
         }
     }
 }

@@ -263,13 +263,25 @@ public class cpnvSportsHome extends Activity
         // two teams
         theTeacherTeam = new Team("X Men",teachers.get(alea.nextInt(teachers.size())));
         int tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
+        Teacher newTPlayer;
         for (int i=0; i< tsize; i++)
-            theTeacherTeam.newPlayer(teachers.get(alea.nextInt(teachers.size())));
+        {
+            do {
+                newTPlayer=teachers.get(alea.nextInt(teachers.size()));
+            } while (theTeacherTeam.getRoster().contains(newTPlayer)); // loop if we picked someone who is already in the team
+            theTeacherTeam.newPlayer(newTPlayer);
+        }
 
         theStudentTeam = new Team("Iron Men",students.get(alea.nextInt(students.size())));
         tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
+        Student newSPlayer;
         for (int i=0; i< tsize; i++)
-            theStudentTeam.newPlayer(students.get(alea.nextInt(students.size())));
+        {
+            do {
+                newSPlayer=students.get(alea.nextInt(students.size()));
+            } while (theStudentTeam.getRoster().contains(newSPlayer)); // loop if we picked someone who is already in the team
+            theStudentTeam.newPlayer(newSPlayer);
+        }
 
         // Initialize handles
         output = (TextView)findViewById(R.id.txtOutput);

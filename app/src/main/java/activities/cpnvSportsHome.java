@@ -10,6 +10,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
 import java.util.Random;
 
 import Entities.Person;
@@ -20,7 +22,7 @@ import ch.cpnv.cpnvsports.R;
 
 
 public class cpnvSportsHome extends Activity
-    implements View.OnClickListener {
+        implements View.OnClickListener {
 
     // infrasctructure
     private Button btn; // Handle on button
@@ -144,6 +146,119 @@ public class cpnvSportsHome extends Activity
         students.add(new Student("Noble","Walsh","Media"));
         students.add(new Student("Grady","Rowe","Media"));
         students.add(new Student("Eugenia","Vega","Media"));
+
+        // list of pseudos
+        String[] pseudos = {
+                "Toronto",
+                "Barnstaple",
+                "Aalst",
+                "San Giovanni Lipioni",
+                "Castelluccio Superiore",
+                "Liberchies",
+                "Wagga Wagga",
+                "Santa Luzia",
+                "Timkur",
+                "Harderwijk",
+                "Lampernisse",
+                "Glimes",
+                "Bargagli",
+                "Brussel",
+                "Drumheller",
+                "Edmundston",
+                "Greifswald",
+                "Satna",
+                "Vliermaalroot",
+                "Maintal",
+                "Yungay",
+                "Quilleco",
+                "Guben",
+                "Grouville",
+                "Padre las Casas",
+                "Saint-Georges",
+                "San Martino in Pensilis",
+                "Salisbury",
+                "New Haven",
+                "Worksop",
+                "Bersillies-l'Abbaye",
+                "Bayeux",
+                "Fulda",
+                "Diano Arentino",
+                "Haridwar",
+                "Wrigley",
+                "Piła",
+                "Pemberton",
+                "Wetzlar",
+                "Montebello",
+                "Herstappe",
+                "Igboho",
+                "Tufo",
+                "Sombreffe",
+                "Seilles",
+                "La Magdeleine",
+                "Saint-Denis-Bovesse",
+                "Stalhille",
+                "Bargagli",
+                "Independencia",
+                "Miami",
+                "Araban",
+                "Tobermory",
+                "Vellore",
+                "San Rafael",
+                "Dallas",
+                "Warwick",
+                "Kapolei",
+                "Birmingham",
+                "Unnao",
+                "Aalst",
+                "Panguipulli",
+                "Villers-la-Bonne-Eau",
+                "Zwijnaarde",
+                "Fort Simpson",
+                "Newport",
+                "Piancastagnaio",
+                "Brechin",
+                "San Pedro",
+                "Baunatal",
+                "Blieskastel",
+                "High Level",
+                "Quinte West",
+                "Marke",
+                "New Sarepta",
+                "Pinto",
+                "Würzburg",
+                "Bundaberg",
+                "Martello/Martell",
+                "Inverurie",
+                "Wambeek",
+                "Callander",
+                "Xhoris",
+                "Beauvais",
+                "Traralgon",
+                "Halifax",
+                "Moose Jaw",
+                "Portici",
+                "Ziano di Fiemme",
+                "Purmerend",
+                "Flin Flon",
+                "Ferlach",
+                "Broken Hill",
+                "Shimla",
+                "Kortessem",
+                "Santa Marina",
+                "Leffinge",
+                "Heusden",
+                "Beaumont",
+                "Chailly",
+                "Wergen",
+                "Patrok",
+                "Castor",
+                "Pollux"
+        };
+
+        // Initialise pseudos
+        Iterator<String> pseudo = Arrays.asList(pseudos).iterator();
+        for (Teacher t:teachers) t.setPseudo(pseudo.next());
+        for (Student s:students) s.setPseudo(pseudo.next());
 
         // two teams
         theTeacherTeam = new Team("X Men",teachers.get(alea.nextInt(teachers.size())));

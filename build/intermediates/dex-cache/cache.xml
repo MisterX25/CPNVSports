@@ -5,14 +5,14 @@
         jar="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="22.0.1"
-        sha1="694943f8aeafb0d483b18b6bbd299032ee9d862a">
+        sha1="218d2a3c3f3add822fff57b5fb1790e20b5b47e6">
         <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_591e64810e6740190d9e7dc2cac432e9dfe2a204.jar" />
     </item>
     <item
         jar="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="22.0.1"
-        sha1="4a0ddfad024c1d4d396e3db4dcfc91363c1fb1a8">
+        sha1="5e83de0b02de4daa71e62f69939c0ce6ba8422c8">
         <dex dex="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/pre-dexed/debug/instant-run_75e7da471a0148c1c78799536beac9a3cc7784cb.jar" />
     </item>
     <item

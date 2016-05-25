@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -56,7 +57,6 @@ public class cpnvSportsHome extends Activity
         // Initialize handles
         output = (TextView)findViewById(R.id.txtOutput);
         input = (EditText)findViewById(R.id.txtInputText);
-        context = getApplicationContext(); // This can go in the constructor because it does not depend on the view content
 
         // define event handlers
         btn=(Button)findViewById(R.id.cmdButton1);
@@ -67,7 +67,6 @@ public class cpnvSportsHome extends Activity
         btn.setOnClickListener(this);
         btn=(Button)findViewById(R.id.cmdButton4);
         btn.setOnClickListener(this);
-
     }
 
     @Override

@@ -45,7 +45,7 @@ public class cpnvSportsHome extends Activity
         btn.setOnClickListener(this);
 
         // Application data
-        toto=new Person("Toto","Lahoupette", new GregorianCalendar(1991,5,6));
+        toto=new Person("Toto","Lahoupette", new GregorianCalendar(1991,5,7));
     }
 
     @Override

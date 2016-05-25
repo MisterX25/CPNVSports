@@ -4,26 +4,26 @@
     api-level="19"
     density="mdpi"
     format="7"
-    timestamp="1463407695038987000" >
+    timestamp="1463408453485790000" >
 
     <task
         name="javac"
-        duration="700" />
+        duration="554" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="333" />
+        duration="166" />
     <task
         name="verifier"
-        duration="25" />
+        duration="26" />
 
     <artifact
         location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="1463407695038987000" >
+    <build timestamp="1463408453485790000" >
         <artifact
             location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

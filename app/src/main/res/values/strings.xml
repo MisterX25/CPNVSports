@@ -2,8 +2,8 @@
     <string name="app_name">CPNVSports</string>
     <string name="app_version">04-Games</string>
 
-    <string name="cmd1Text">Participants</string>
-    <string name="cmd2Text">Games</string>
-    <string name="cmd3Text">Best</string>
+    <string name="cmd1Text">Equipes</string>
+    <string name="cmd2Text">Individuels</string>
+    <string name="cmd3Text">Matches</string>
     <string name="cmd4Text"> </string>
 </resources>

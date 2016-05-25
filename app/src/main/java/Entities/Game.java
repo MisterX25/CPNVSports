@@ -21,16 +21,8 @@ public class Game
      */
     public Game(Participant contender1, Participant contender2)
     {
-        if (contender1.getClass() == contender2.getClass())
-        {
-            this.contender1=contender1;
-            this.contender2=contender2;
-        }
-        else
-        {
-            contender1=null;
-            contender2=null;
-        }
+        this.contender1=contender1;
+        this.contender2=contender2;
     }
 
     //=========================================== Methods ==================================
@@ -50,13 +42,13 @@ public class Game
                 return null;
     }
 
+    /**
+     * Textual representation of a game
+     * @return
+     */
     public String dump()
     {
-        String res = "";
-        if (contender1 == null)
-            res = "Match non défini";
-        else
-            res = contender1.getPseudo()+" - "+contender2.getPseudo()+": "+score1+"-"+score2;
+        String res = contender1.getPseudo()+" - "+contender2.getPseudo()+": "+score1+"-"+score2;
         return res;
     }
 

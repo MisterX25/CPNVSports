@@ -27,8 +27,8 @@ public class cpnvSportsHome extends Activity
     implements View.OnClickListener {
 
     // Constants
-    private final int nbGames = 50;
-    private final int nbTeams = 10;
+    private final int nbStudentTeams = 8;
+    private final int nbTeacherTeams = 2;
 
     // infrasctructure
     private Button btn; // Handle on button
@@ -37,14 +37,11 @@ public class cpnvSportsHome extends Activity
     private Context context; // For toasts
 
     // application
-    private ArrayList<Team> teacherTeams;
-    private ArrayList<Team> studentTeams;
     private ArrayList<Teacher> teachers;
     private ArrayList<Student> students;
-    private ArrayList<Participant> participants;
-    private ArrayList<Participant> participants;
-    private ArrayList<Game> teamGames;
-    private ArrayList<Game> individualGames;
+    private ArrayList<Participant> teams;
+    private ArrayList<Participant> individuals;
+    private ArrayList<Game> games;
 
     private Random alea = new Random();
 
@@ -82,19 +79,19 @@ public class cpnvSportsHome extends Activity
         {
 
             case R.id.cmdButton1:
-                output.setText("Participants:");
-                for (Participant p:participants)
+                output.setText("Equipes:");
+                for (Participant p:teams)
                     output.setText(output.getText()+"\n"+p.dump());
                 break;
             case R.id.cmdButton2:
-                output.setText("Matches entre équipes:");
-                for (Game g:teamGames)
-                    output.setText(output.getText()+"\n"+g.dump());
-                output.setText(output.getText()+"\n\nMatches entre individus:");
-                for (Game g:individualGames)
-                    output.setText(output.getText()+"\n"+g.dump());
+                output.setText("Individuels:");
+                for (Participant p:individuals)
+                    output.setText(output.getText()+"\n"+p.dump());
                 break;
             case R.id.cmdButton3:
+                output.setText("Matches:");
+                for (Game g:games)
+                    output.setText(output.getText()+"\n"+g.dump());
                 break;
             case R.id.cmdButton4:
                 break;
@@ -323,9 +320,9 @@ public class cpnvSportsHome extends Activity
         for (Teacher t:teachers) t.setPseudo(pseudo.next());
         for (Student s:students) s.setPseudo(pseudo.next());
 
-        // Some teams
-        teacherTeams = new ArrayList<Team>();
-        for (int nt=0; nt<nbTeams; nt++)
+        // Teacher teams
+        teams = new ArrayList<Participant>();
+        for (int nt=0; nt<nbTeacherTeams; nt++)
         {
             Team aTeam = new Team("Temp",teachers.get(alea.nextInt(teachers.size())));
             aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
@@ -337,11 +334,11 @@ public class cpnvSportsHome extends Activity
                 aTeam.newPlayer(newTPlayer);
                 teachers.remove(newTPlayer); // avoid having one teacher in two teams
             }
-            teacherTeams.add(aTeam);
+            teams.add(aTeam);
         }
 
-        studentTeams = new ArrayList<Team>();
-        for (int nt=0; nt<nbTeams; nt++)
+        // Student teams
+        for (int nt=0; nt<nbStudentTeams; nt++)
         {
             Team aTeam = new Team("Temp", students.get(alea.nextInt(students.size())));
             aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
@@ -353,43 +350,38 @@ public class cpnvSportsHome extends Activity
                 aTeam.newPlayer(newSPlayer);
                 students.remove(newSPlayer);
             }
-            studentTeams.add(aTeam);
+            teams.add(aTeam);
         }
 
         // Build list of all participants. We make a single list because the end goal is to find the best participant, team or individual
-        teams = new ArrayList<Participant>();
-        participants.addAll(teacherTeams);
-        participants.addAll(studentTeams);
-        participants.addAll(teachers);
-        participants.addAll(students);
+        individuals = new ArrayList<Participant>();
+        individuals.addAll(teachers); // All remaining teachers are individuals
+        individuals.addAll(students); // same for students
 
-
-        Integer nbTeamParticipants = teacherTeams.size()+studentTeams.size();
-        Integer nbIndividualParticipants = teachers.size()+students.size();
-
-        // List of team games
-        teamGames = new ArrayList<Game>();
-        for (int i=0; i<nbGames; i++)
+        // List of games
+        // Team games
+        games = new ArrayList<Game>();
+        for (int i=0; i<2; i++)
         {
-            Integer p1=alea.nextInt(nbTeamParticipants);
-            Integer p2=alea.nextInt(nbTeamParticipants);
-            Game g=new Game(participants.get(p1),participants.get(p2));
+            Integer p1=alea.nextInt(teams.size());
+            Integer p2=alea.nextInt(teams.size());
+            Game g=new Game(teams.get(p1),teams.get(p2));
             Integer s1=alea.nextInt(20)+5;
             Integer s2=alea.nextInt(20)+5;;
             g.setScore(s1,s2);
-            teamGames.add(g);
+            games.add(g);
         }
         // List of individual games
-        individualGames = new ArrayList<Game>();
-        for (int i=0; i<nbGames; i++)
+        // individualGames
+        for (int i=0; i<2; i++)
         {
-            Integer p1=alea.nextInt(nbIndividualParticipants);
-            Integer p2=alea.nextInt(nbIndividualParticipants);
-            Game g=new Game(participants.get(nbTeamParticipants+p1),participants.get(nbTeamParticipants+p2));
+            Integer p1=alea.nextInt(individuals.size());
+            Integer p2=alea.nextInt(individuals.size());
+            Game g=new Game(individuals.get(p1),individuals.get(p2));
             Integer s1=alea.nextInt(20)+5;
             Integer s2=alea.nextInt(20)+5;;
             g.setScore(s1,s2);
-            individualGames.add(g);
+            games.add(g);
         }
     }
 }

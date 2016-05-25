@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Random;
 
+import Entities.Game;
 import Entities.Participant;
 import Entities.Person;
 import Entities.Student;
@@ -25,6 +26,10 @@ import ch.cpnv.cpnvsports.R;
 public class cpnvSportsHome extends Activity
     implements View.OnClickListener {
 
+    // Constants
+    private final int nbGames = 50;
+    private final int nbTeams = 10;
+
     // infrasctructure
     private Button btn; // Handle on button
     private TextView output; // handle on output zone
@@ -32,11 +37,14 @@ public class cpnvSportsHome extends Activity
     private Context context; // For toasts
 
     // application
-    private Team theTeacherTeam;
-    private Team theStudentTeam;
+    private ArrayList<Team> teacherTeams;
+    private ArrayList<Team> studentTeams;
     private ArrayList<Teacher> teachers;
     private ArrayList<Student> students;
     private ArrayList<Participant> participants;
+    private ArrayList<Participant> participants;
+    private ArrayList<Game> teamGames;
+    private ArrayList<Game> individualGames;
 
     private Random alea = new Random();
 
@@ -74,24 +82,21 @@ public class cpnvSportsHome extends Activity
         {
 
             case R.id.cmdButton1:
-                output.setText("Student team:\n"+theStudentTeam.dump());
+                output.setText("Participants:");
+                for (Participant p:participants)
+                    output.setText(output.getText()+"\n"+p.dump());
                 break;
             case R.id.cmdButton2:
-                output.setText("Teacher team:\n"+theTeacherTeam.dump());
+                output.setText("Matches entre équipes:");
+                for (Game g:teamGames)
+                    output.setText(output.getText()+"\n"+g.dump());
+                output.setText(output.getText()+"\n\nMatches entre individus:");
+                for (Game g:individualGames)
+                    output.setText(output.getText()+"\n"+g.dump());
                 break;
             case R.id.cmdButton3:
-                if (theTeacherTeam.swapCaptain(teachers.get(alea.nextInt(teachers.size()))))
-                    output.setText("Teacher team:\n(Very lucky change of captain)\n"+theTeacherTeam.dump());
-                else
-                    output.setText("Teacher team:\n(Failed change of captain)\n"+theTeacherTeam.dump());
                 break;
             case R.id.cmdButton4:
-                int rsize = theTeacherTeam.getRoster().size(); // number of players in the team
-                Person newCaptain = theTeacherTeam.getRoster().get(alea.nextInt(rsize)); // pick one at random
-                if (theTeacherTeam.swapCaptain(newCaptain))
-                    output.setText("Teacher team:\n(Successful change of captain)\n"+theTeacherTeam.dump());
-                else
-                    output.setText("BUG !!!!!");
                 break;
 
         }
@@ -318,42 +323,73 @@ public class cpnvSportsHome extends Activity
         for (Teacher t:teachers) t.setPseudo(pseudo.next());
         for (Student s:students) s.setPseudo(pseudo.next());
 
-        // two teams
-        theTeacherTeam = new Team("X Men",teachers.get(alea.nextInt(teachers.size())));
-        int tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
-        Teacher newTPlayer;
-        for (int i=0; i< tsize; i++)
+        // Some teams
+        teacherTeams = new ArrayList<Team>();
+        for (int nt=0; nt<nbTeams; nt++)
         {
-            do {
+            Team aTeam = new Team("Temp",teachers.get(alea.nextInt(teachers.size())));
+            aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
+            int tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
+            Teacher newTPlayer;
+            for (int i=0; i< tsize; i++)
+            {
                 newTPlayer=teachers.get(alea.nextInt(teachers.size()));
-            } while (theTeacherTeam.getRoster().contains(newTPlayer)); // loop if we picked someone who is already in the team
-            theTeacherTeam.newPlayer(newTPlayer);
+                aTeam.newPlayer(newTPlayer);
+                teachers.remove(newTPlayer); // avoid having one teacher in two teams
+            }
+            teacherTeams.add(aTeam);
         }
 
-        theStudentTeam = new Team("Iron Men",students.get(alea.nextInt(students.size())));
-        tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
-        Student newSPlayer;
-        for (int i=0; i< tsize; i++)
+        studentTeams = new ArrayList<Team>();
+        for (int nt=0; nt<nbTeams; nt++)
         {
-            do {
-                newSPlayer=students.get(alea.nextInt(students.size()));
-            } while (theStudentTeam.getRoster().contains(newSPlayer)); // loop if we picked someone who is already in the team
-            theStudentTeam.newPlayer(newSPlayer);
+            Team aTeam = new Team("Temp", students.get(alea.nextInt(students.size())));
+            aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
+            int tsize = alea.nextInt(3) + 2; // pick a team size between 2 and 4
+            Student newSPlayer;
+            for (int i = 0; i < tsize; i++)
+            {
+                newSPlayer = students.get(alea.nextInt(students.size()));
+                aTeam.newPlayer(newSPlayer);
+                students.remove(newSPlayer);
+            }
+            studentTeams.add(aTeam);
         }
 
-        // Build list of participants
-        participants = new ArrayList<Participant>();
-        participants.add(theStudentTeam);
-        participants.add(theTeacherTeam);
-        for (Student s: students)
+        // Build list of all participants. We make a single list because the end goal is to find the best participant, team or individual
+        teams = new ArrayList<Participant>();
+        participants.addAll(teacherTeams);
+        participants.addAll(studentTeams);
+        participants.addAll(teachers);
+        participants.addAll(students);
+
+
+        Integer nbTeamParticipants = teacherTeams.size()+studentTeams.size();
+        Integer nbIndividualParticipants = teachers.size()+students.size();
+
+        // List of team games
+        teamGames = new ArrayList<Game>();
+        for (int i=0; i<nbGames; i++)
         {
-            if (!theStudentTeam.getRoster().contains(s)) // make an individual participant
-                participants.add(s);
+            Integer p1=alea.nextInt(nbTeamParticipants);
+            Integer p2=alea.nextInt(nbTeamParticipants);
+            Game g=new Game(participants.get(p1),participants.get(p2));
+            Integer s1=alea.nextInt(20)+5;
+            Integer s2=alea.nextInt(20)+5;;
+            g.setScore(s1,s2);
+            teamGames.add(g);
         }
-        for (Teacher t: teachers)
+        // List of individual games
+        individualGames = new ArrayList<Game>();
+        for (int i=0; i<nbGames; i++)
         {
-            if (!theTeacherTeam.getRoster().contains(t)) // make an individual participant
-                participants.add(t);
+            Integer p1=alea.nextInt(nbIndividualParticipants);
+            Integer p2=alea.nextInt(nbIndividualParticipants);
+            Game g=new Game(participants.get(nbTeamParticipants+p1),participants.get(nbTeamParticipants+p2));
+            Integer s1=alea.nextInt(20)+5;
+            Integer s2=alea.nextInt(20)+5;;
+            g.setScore(s1,s2);
+            individualGames.add(g);
         }
     }
 }

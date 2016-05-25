@@ -14,10 +14,23 @@ public class Game
 
     //=========================================== Constructors ==================================
 
+    /**
+     * Constructor. Sets the contenders to null if parameters are of different types
+     * @param contender1
+     * @param contender2
+     */
     public Game(Participant contender1, Participant contender2)
     {
-        this.contender1=contender1;
-        this.contender2=contender2;
+        if (contender1.getClass() == contender2.getClass())
+        {
+            this.contender1=contender1;
+            this.contender2=contender2;
+        }
+        else
+        {
+            contender1=null;
+            contender2=null;
+        }
     }
 
     //=========================================== Methods ==================================
@@ -36,12 +49,23 @@ public class Game
             else
                 return null;
     }
+
+    public String dump()
+    {
+        String res = "";
+        if (contender1 == null)
+            res = "Match non défini";
+        else
+            res = contender1.getPseudo()+" - "+contender2.getPseudo()+": "+score1+"-"+score2;
+        return res;
+    }
+
     //=========================================== Getter / Setters =================================
 
     /**
      * Sets the score of the game, both teams simultaneaously
-     * @param sp1 Score of contender 1
-     * @param sp2 Score of contender 2
+     * @param score1 Score of contender 1
+     * @param score2 Score of contender 2
      */
     public void setScore (Integer score1, Integer score2)
     {

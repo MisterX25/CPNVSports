@@ -1,0 +1,4 @@
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/activities/cpnvSportsHome$override.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/Entities/Game$override.class
+CHANGED,/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/Entities/Participant$override.class

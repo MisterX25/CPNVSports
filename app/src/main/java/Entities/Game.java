@@ -3,7 +3,7 @@ package Entities;
 /**
  * Created by Xavier on 17.05.16.
  */
-public class Game
+public class Game implements TextUI
 {
     //=========================================== Attributes ==================================
 

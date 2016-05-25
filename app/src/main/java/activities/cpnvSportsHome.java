@@ -323,10 +323,11 @@ public class cpnvSportsHome extends Activity
         teams = new ArrayList<Participant>();
         for (int nt=0; nt<nbTeacherTeams; nt++)
         {
-            Team aTeam = new Team("Temp",teachers.get(alea.nextInt(teachers.size())));
+            Teacher newTPlayer=teachers.get(alea.nextInt(teachers.size()));
+            Team aTeam = new Team(newTPlayer.getPseudo(),newTPlayer);
+            teachers.remove(newTPlayer); // avoid having one teacher in two teams
             aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
             int tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
-            Teacher newTPlayer;
             for (int i=0; i< tsize; i++)
             {
                 newTPlayer=teachers.get(alea.nextInt(teachers.size()));
@@ -339,10 +340,11 @@ public class cpnvSportsHome extends Activity
         // Student teams
         for (int nt=0; nt<nbStudentTeams; nt++)
         {
-            Team aTeam = new Team("Temp", students.get(alea.nextInt(students.size())));
+            Student newSPlayer=students.get(alea.nextInt(students.size()));
+            Team aTeam = new Team(newSPlayer.getPseudo(), newSPlayer);
+            students.remove(newSPlayer);
             aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
             int tsize = alea.nextInt(3) + 2; // pick a team size between 2 and 4
-            Student newSPlayer;
             for (int i = 0; i < tsize; i++)
             {
                 newSPlayer = students.get(alea.nextInt(students.size()));

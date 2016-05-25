@@ -79,9 +79,17 @@ public class Team extends Participant
         return captain;
     }
 
+    /**
+     * Returns the entire roster, including the captain (per spec)
+     * @return
+     */
     public ArrayList<Person> getRoster()
     {
-        return roster;
+        // Build a copy so that we can add the captain without altering our roster member
+        ArrayList<Person> fullroster = new ArrayList<Person>();
+        fullroster.addAll(roster);
+        fullroster.add(captain);
+        return fullroster;
     }
 
 }

@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">CPNVSports</string>
-    <string name="app_version">04-Games (interface)</string>
+    <string name="app_version">06-XMLLoad-Exceptions</string>
 
-    <string name="cmd1Text">Equipes</string>
-    <string name="cmd2Text">Individuels</string>
-    <string name="cmd3Text">Matches</string>
-    <string name="cmd4Text"> </string>
+    <string name="cmd1Text">Court id=1</string>
+    <string name="cmd2Text">4ème court</string>
+    <string name="cmd3Text">Nombre</string>
+    <string name="cmd4Text">Fail</string>
 </resources>

@@ -32,11 +32,11 @@
         "source": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_fade_out.xml"
-    },
-    {
         "merged": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
         "source": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/anim/abc_fade_out.xml"
     }
 ]

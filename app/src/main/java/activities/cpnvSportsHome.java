@@ -2,22 +2,40 @@ package activities;
 
 import android.app.Activity;
 import android.content.Context;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+
+import java.io.IOException;
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Random;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import Entities.Court;
+import Entities.DataSource;
 import Entities.Game;
 import Entities.Participant;
-import Entities.Person;
 import Entities.Student;
 import Entities.Teacher;
 import Entities.Team;
@@ -25,13 +43,13 @@ import ch.cpnv.cpnvsports.R;
 
 
 public class cpnvSportsHome extends Activity
-    implements View.OnClickListener {
+        implements View.OnClickListener {
 
     // Constants
     private final int nbStudentTeams = 8;
     private final int nbTeacherTeams = 2;
 
-    // infrasctructure
+    // infrastructure
     private Button btn; // Handle on button
     private TextView output; // handle on output zone
     private EditText input; // handle on input text box
@@ -43,6 +61,7 @@ public class cpnvSportsHome extends Activity
     private ArrayList<Participant> teams;
     private ArrayList<Participant> individuals;
     private ArrayList<Game> games;
+    Court myCourt = new Court();
 
     private Random alea = new Random();
 
@@ -55,156 +74,156 @@ public class cpnvSportsHome extends Activity
         initializeAppData();
 
         // Initialize handles
-        output = (TextView)findViewById(R.id.txtOutput);
-        input = (EditText)findViewById(R.id.txtInputText);
+        output = (TextView) findViewById(R.id.txtOutput);
+        input = (EditText) findViewById(R.id.txtInputText);
 
         // define event handlers
-        btn=(Button)findViewById(R.id.cmdButton1);
+        btn = (Button) findViewById(R.id.cmdButton1);
         btn.setOnClickListener(this);
-        btn=(Button)findViewById(R.id.cmdButton2);
+        btn = (Button) findViewById(R.id.cmdButton2);
         btn.setOnClickListener(this);
-        btn=(Button)findViewById(R.id.cmdButton3);
+        btn = (Button) findViewById(R.id.cmdButton3);
         btn.setOnClickListener(this);
-        btn=(Button)findViewById(R.id.cmdButton4);
+        btn = (Button) findViewById(R.id.cmdButton4);
         btn.setOnClickListener(this);
     }
 
     @Override
-    public void onClick(View btn)
-    {
+    public void onClick(View btn) {
 
-        Button clicked = (Button)btn;
+        Button clicked = (Button) btn;
         switch (clicked.getId())
         {
-
             case R.id.cmdButton1:
-                output.setText("Equipes:");
-                for (Participant p:teams)
-                    output.setText(output.getText()+"\n"+p.dump());
+                if (myCourt.load_id(1))
+                    output.setText("Court: "+myCourt.dump());
+                else
+                    output.setText("Court inexistant");
                 break;
             case R.id.cmdButton2:
-                output.setText("Individuels:");
-                for (Participant p:individuals)
-                    output.setText(output.getText()+"\n"+p.dump());
+                if (myCourt.load_index(3))
+                    output.setText("Court: "+myCourt.dump());
+                else
+                    output.setText("Court inexistant");
                 break;
             case R.id.cmdButton3:
-                output.setText("Matches:");
-                for (Game g:games)
-                    output.setText(output.getText()+"\n"+g.dump());
+                output.setText("Parmi: " + myCourt.numberOfCandidates());
                 break;
             case R.id.cmdButton4:
+                if (myCourt.load_index(5))
+                    output.setText("Court: "+myCourt.dump());
+                else
+                    output.setText("Court inexistant");
                 break;
-
         }
     }
 
     //=========================================== Private methods ==================================
 
-    private void initializeAppData()
-    {
+    private void initializeAppData() {
         teachers = new ArrayList<Teacher>();
         students = new ArrayList<Student>();
 
         // from generatedata.com
-        teachers.add(new Teacher("Adria","Holt","Info"));
-        teachers.add(new Teacher("Kasper","Booth","Info"));
-        teachers.add(new Teacher("Samuel","Leach","Info"));
-        teachers.add(new Teacher("Colton","Camacho","Info"));
-        teachers.add(new Teacher("Chiquita","Armstrong","Info"));
-        teachers.add(new Teacher("Travis","Carver","Info"));
-        teachers.add(new Teacher("Brendan","Shannon","Info"));
-        teachers.add(new Teacher("Irene","Hayden","Info"));
-        teachers.add(new Teacher("Kadeem","Travis","Info"));
-        teachers.add(new Teacher("Raya","Burgess","Info"));
-        teachers.add(new Teacher("Marvin","Patterson","Info"));
-        teachers.add(new Teacher("Barbara","Williams","Info"));
-        teachers.add(new Teacher("Jada","Joyce","Info"));
-        teachers.add(new Teacher("Anastasia","Bean","Poly"));
-        teachers.add(new Teacher("Branden","Ware","Poly"));
-        teachers.add(new Teacher("Mary","Lane","Poly"));
-        teachers.add(new Teacher("Shelly","Love","Poly"));
-        teachers.add(new Teacher("Isaiah","Mccall","Poly"));
-        teachers.add(new Teacher("Alana","Hinton","Poly"));
-        teachers.add(new Teacher("Sigourney","Rosa","Poly"));
-        teachers.add(new Teacher("Rogan","Briggs","Poly"));
-        teachers.add(new Teacher("Medge","Trevino","Poly"));
-        teachers.add(new Teacher("Nevada","Vazquez","Poly"));
-        teachers.add(new Teacher("Dane","Slater","Poly"));
-        teachers.add(new Teacher("Craig","Obrien","Poly"));
-        teachers.add(new Teacher("Piper","Moran","Poly"));
-        teachers.add(new Teacher("Barclay","Suarez","Poly"));
-        teachers.add(new Teacher("Yoko","Perez","Poly"));
-        teachers.add(new Teacher("Colorado","Dixon","Poly"));
-        teachers.add(new Teacher("Laith","Macdonald","Poly"));
-        teachers.add(new Teacher("Isabella","Fry","Poly"));
-        teachers.add(new Teacher("Kane","Conrad","Poly"));
-        teachers.add(new Teacher("Kasper","Mcdonald","Media"));
-        teachers.add(new Teacher("Ifeoma","Austin","Media"));
-        teachers.add(new Teacher("Deanna","Baird","Media"));
-        teachers.add(new Teacher("Erasmus","Middleton","Media"));
-        teachers.add(new Teacher("Zane","Mcleod","Media"));
-        students.add(new Student("Inga","Flowers","Media"));
-        students.add(new Student("Wesley","Gallagher","Media"));
-        students.add(new Student("Linus","Goodwin","Media"));
-        students.add(new Student("Elton","Drake","Media"));
-        students.add(new Student("Justine","Whitfield","Media"));
-        students.add(new Student("Kaseem","Chambers","Media"));
-        students.add(new Student("Melinda","Fitzpatrick","Media"));
-        students.add(new Student("Thaddeus","Cherry","Media"));
-        students.add(new Student("Sarah","Hunt","Media"));
-        students.add(new Student("Holly","Ratliff","Media"));
-        students.add(new Student("Xanthus","Watson","Media"));
-        students.add(new Student("Jarrod","Thomas","Info"));
-        students.add(new Student("Sybil","Paul","Info"));
-        students.add(new Student("Brenna","Hale","Info"));
-        students.add(new Student("Lee","Sanders","Info"));
-        students.add(new Student("Irma","Gardner","Info"));
-        students.add(new Student("Tiger","Butler","Info"));
-        students.add(new Student("Kyle","Reid","Info"));
-        students.add(new Student("Yoko","Perry","Info"));
-        students.add(new Student("Alden","Brennan","Info"));
-        students.add(new Student("Tana","Whitney","Info"));
-        students.add(new Student("Vivien","Allison","Info"));
-        students.add(new Student("Arsenio","Pugh","Info"));
-        students.add(new Student("Nissim","Chan","Info"));
-        students.add(new Student("Kasimir","Eaton","Info"));
-        students.add(new Student("Nicholas","Stone","Info"));
-        students.add(new Student("Jada","Underwood","Info"));
-        students.add(new Student("Honorato","Lyons","Info"));
-        students.add(new Student("Montana","Benjamin","Info"));
-        students.add(new Student("Winifred","Keith","Info"));
-        students.add(new Student("Xander","Mckinney","Info"));
-        students.add(new Student("Benedict","Ferrell","Info"));
-        students.add(new Student("Kylan","Noble","Info"));
-        students.add(new Student("Wilma","Warren","Info"));
-        students.add(new Student("Paloma","Stokes","Info"));
-        students.add(new Student("Jacob","Phillips","Info"));
-        students.add(new Student("Raya","Whitaker","Info"));
-        students.add(new Student("Constance","Fleming","Poly"));
-        students.add(new Student("Wilma","Fitzpatrick","Poly"));
-        students.add(new Student("Charissa","Vincent","Poly"));
-        students.add(new Student("Lisandra","Burch","Poly"));
-        students.add(new Student("Rae","George","Poly"));
-        students.add(new Student("Vladimir","Hurst","Poly"));
-        students.add(new Student("Beatrice","Mercer","Poly"));
-        students.add(new Student("Ferdinand","Mccoy","Poly"));
-        students.add(new Student("Ulric","Joyner","Poly"));
-        students.add(new Student("Marshall","Leon","Poly"));
-        students.add(new Student("Whitney","Patton","Poly"));
-        students.add(new Student("Ryder","Serrano","Poly"));
-        students.add(new Student("Lani","Oliver","Poly"));
-        students.add(new Student("Jena","Logan","Poly"));
-        students.add(new Student("Wallace","Stafford","Poly"));
-        students.add(new Student("Isaac","Winters","Poly"));
-        students.add(new Student("Elaine","Combs","Poly"));
-        students.add(new Student("Francis","Hansen","Poly"));
-        students.add(new Student("Oliver","Acevedo","Poly"));
-        students.add(new Student("Cooper","Walters","Media"));
-        students.add(new Student("Venus","Molina","Media"));
-        students.add(new Student("Ivan","Rich","Media"));
-        students.add(new Student("Noble","Walsh","Media"));
-        students.add(new Student("Grady","Rowe","Media"));
-        students.add(new Student("Eugenia","Vega","Media"));
+        teachers.add(new Teacher("Adria", "Holt", "Info"));
+        teachers.add(new Teacher("Kasper", "Booth", "Info"));
+        teachers.add(new Teacher("Samuel", "Leach", "Info"));
+        teachers.add(new Teacher("Colton", "Camacho", "Info"));
+        teachers.add(new Teacher("Chiquita", "Armstrong", "Info"));
+        teachers.add(new Teacher("Travis", "Carver", "Info"));
+        teachers.add(new Teacher("Brendan", "Shannon", "Info"));
+        teachers.add(new Teacher("Irene", "Hayden", "Info"));
+        teachers.add(new Teacher("Kadeem", "Travis", "Info"));
+        teachers.add(new Teacher("Raya", "Burgess", "Info"));
+        teachers.add(new Teacher("Marvin", "Patterson", "Info"));
+        teachers.add(new Teacher("Barbara", "Williams", "Info"));
+        teachers.add(new Teacher("Jada", "Joyce", "Info"));
+        teachers.add(new Teacher("Anastasia", "Bean", "Poly"));
+        teachers.add(new Teacher("Branden", "Ware", "Poly"));
+        teachers.add(new Teacher("Mary", "Lane", "Poly"));
+        teachers.add(new Teacher("Shelly", "Love", "Poly"));
+        teachers.add(new Teacher("Isaiah", "Mccall", "Poly"));
+        teachers.add(new Teacher("Alana", "Hinton", "Poly"));
+        teachers.add(new Teacher("Sigourney", "Rosa", "Poly"));
+        teachers.add(new Teacher("Rogan", "Briggs", "Poly"));
+        teachers.add(new Teacher("Medge", "Trevino", "Poly"));
+        teachers.add(new Teacher("Nevada", "Vazquez", "Poly"));
+        teachers.add(new Teacher("Dane", "Slater", "Poly"));
+        teachers.add(new Teacher("Craig", "Obrien", "Poly"));
+        teachers.add(new Teacher("Piper", "Moran", "Poly"));
+        teachers.add(new Teacher("Barclay", "Suarez", "Poly"));
+        teachers.add(new Teacher("Yoko", "Perez", "Poly"));
+        teachers.add(new Teacher("Colorado", "Dixon", "Poly"));
+        teachers.add(new Teacher("Laith", "Macdonald", "Poly"));
+        teachers.add(new Teacher("Isabella", "Fry", "Poly"));
+        teachers.add(new Teacher("Kane", "Conrad", "Poly"));
+        teachers.add(new Teacher("Kasper", "Mcdonald", "Media"));
+        teachers.add(new Teacher("Ifeoma", "Austin", "Media"));
+        teachers.add(new Teacher("Deanna", "Baird", "Media"));
+        teachers.add(new Teacher("Erasmus", "Middleton", "Media"));
+        teachers.add(new Teacher("Zane", "Mcleod", "Media"));
+        students.add(new Student("Inga", "Flowers", "Media"));
+        students.add(new Student("Wesley", "Gallagher", "Media"));
+        students.add(new Student("Linus", "Goodwin", "Media"));
+        students.add(new Student("Elton", "Drake", "Media"));
+        students.add(new Student("Justine", "Whitfield", "Media"));
+        students.add(new Student("Kaseem", "Chambers", "Media"));
+        students.add(new Student("Melinda", "Fitzpatrick", "Media"));
+        students.add(new Student("Thaddeus", "Cherry", "Media"));
+        students.add(new Student("Sarah", "Hunt", "Media"));
+        students.add(new Student("Holly", "Ratliff", "Media"));
+        students.add(new Student("Xanthus", "Watson", "Media"));
+        students.add(new Student("Jarrod", "Thomas", "Info"));
+        students.add(new Student("Sybil", "Paul", "Info"));
+        students.add(new Student("Brenna", "Hale", "Info"));
+        students.add(new Student("Lee", "Sanders", "Info"));
+        students.add(new Student("Irma", "Gardner", "Info"));
+        students.add(new Student("Tiger", "Butler", "Info"));
+        students.add(new Student("Kyle", "Reid", "Info"));
+        students.add(new Student("Yoko", "Perry", "Info"));
+        students.add(new Student("Alden", "Brennan", "Info"));
+        students.add(new Student("Tana", "Whitney", "Info"));
+        students.add(new Student("Vivien", "Allison", "Info"));
+        students.add(new Student("Arsenio", "Pugh", "Info"));
+        students.add(new Student("Nissim", "Chan", "Info"));
+        students.add(new Student("Kasimir", "Eaton", "Info"));
+        students.add(new Student("Nicholas", "Stone", "Info"));
+        students.add(new Student("Jada", "Underwood", "Info"));
+        students.add(new Student("Honorato", "Lyons", "Info"));
+        students.add(new Student("Montana", "Benjamin", "Info"));
+        students.add(new Student("Winifred", "Keith", "Info"));
+        students.add(new Student("Xander", "Mckinney", "Info"));
+        students.add(new Student("Benedict", "Ferrell", "Info"));
+        students.add(new Student("Kylan", "Noble", "Info"));
+        students.add(new Student("Wilma", "Warren", "Info"));
+        students.add(new Student("Paloma", "Stokes", "Info"));
+        students.add(new Student("Jacob", "Phillips", "Info"));
+        students.add(new Student("Raya", "Whitaker", "Info"));
+        students.add(new Student("Constance", "Fleming", "Poly"));
+        students.add(new Student("Wilma", "Fitzpatrick", "Poly"));
+        students.add(new Student("Charissa", "Vincent", "Poly"));
+        students.add(new Student("Lisandra", "Burch", "Poly"));
+        students.add(new Student("Rae", "George", "Poly"));
+        students.add(new Student("Vladimir", "Hurst", "Poly"));
+        students.add(new Student("Beatrice", "Mercer", "Poly"));
+        students.add(new Student("Ferdinand", "Mccoy", "Poly"));
+        students.add(new Student("Ulric", "Joyner", "Poly"));
+        students.add(new Student("Marshall", "Leon", "Poly"));
+        students.add(new Student("Whitney", "Patton", "Poly"));
+        students.add(new Student("Ryder", "Serrano", "Poly"));
+        students.add(new Student("Lani", "Oliver", "Poly"));
+        students.add(new Student("Jena", "Logan", "Poly"));
+        students.add(new Student("Wallace", "Stafford", "Poly"));
+        students.add(new Student("Isaac", "Winters", "Poly"));
+        students.add(new Student("Elaine", "Combs", "Poly"));
+        students.add(new Student("Francis", "Hansen", "Poly"));
+        students.add(new Student("Oliver", "Acevedo", "Poly"));
+        students.add(new Student("Cooper", "Walters", "Media"));
+        students.add(new Student("Venus", "Molina", "Media"));
+        students.add(new Student("Ivan", "Rich", "Media"));
+        students.add(new Student("Noble", "Walsh", "Media"));
+        students.add(new Student("Grady", "Rowe", "Media"));
+        students.add(new Student("Eugenia", "Vega", "Media"));
 
         // list of pseudos
         String[] pseudos = {
@@ -316,20 +335,18 @@ public class cpnvSportsHome extends Activity
 
         // Initialise pseudos
         Iterator<String> pseudo = Arrays.asList(pseudos).iterator();
-        for (Teacher t:teachers) t.setPseudo(pseudo.next());
-        for (Student s:students) s.setPseudo(pseudo.next());
+        for (Teacher t : teachers) t.setPseudo(pseudo.next());
+        for (Student s : students) s.setPseudo(pseudo.next());
 
         // Teacher teams
         teams = new ArrayList<Participant>();
-        for (int nt=0; nt<nbTeacherTeams; nt++)
-        {
-            Team aTeam = new Team("Temp",teachers.get(alea.nextInt(teachers.size())));
+        for (int nt = 0; nt < nbTeacherTeams; nt++) {
+            Team aTeam = new Team("Temp", teachers.get(alea.nextInt(teachers.size())));
             aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
-            int tsize = alea.nextInt(3)+2; // pick a team size between 2 and 4
+            int tsize = alea.nextInt(3) + 2; // pick a team size between 2 and 4
             Teacher newTPlayer;
-            for (int i=0; i< tsize; i++)
-            {
-                newTPlayer=teachers.get(alea.nextInt(teachers.size()));
+            for (int i = 0; i < tsize; i++) {
+                newTPlayer = teachers.get(alea.nextInt(teachers.size()));
                 aTeam.newPlayer(newTPlayer);
                 teachers.remove(newTPlayer); // avoid having one teacher in two teams
             }
@@ -337,14 +354,12 @@ public class cpnvSportsHome extends Activity
         }
 
         // Student teams
-        for (int nt=0; nt<nbStudentTeams; nt++)
-        {
+        for (int nt = 0; nt < nbStudentTeams; nt++) {
             Team aTeam = new Team("Temp", students.get(alea.nextInt(students.size())));
             aTeam.setPseudo(aTeam.getCaptain().getLastname()); // Team's pseudo is the last name of the captain
             int tsize = alea.nextInt(3) + 2; // pick a team size between 2 and 4
             Student newSPlayer;
-            for (int i = 0; i < tsize; i++)
-            {
+            for (int i = 0; i < tsize; i++) {
                 newSPlayer = students.get(alea.nextInt(students.size()));
                 aTeam.newPlayer(newSPlayer);
                 students.remove(newSPlayer);
@@ -360,26 +375,26 @@ public class cpnvSportsHome extends Activity
         // List of games
         // Team games
         games = new ArrayList<Game>();
-        for (int i=0; i<2; i++)
-        {
-            Integer p1=alea.nextInt(teams.size());
-            Integer p2=alea.nextInt(teams.size());
-            Game g=new Game(teams.get(p1),teams.get(p2));
-            Integer s1=alea.nextInt(20)+5;
-            Integer s2=alea.nextInt(20)+5;;
-            g.setScore(s1,s2);
+        for (int i = 0; i < 2; i++) {
+            Integer p1 = alea.nextInt(teams.size());
+            Integer p2 = alea.nextInt(teams.size());
+            Game g = new Game(teams.get(p1), teams.get(p2));
+            Integer s1 = alea.nextInt(20) + 5;
+            Integer s2 = alea.nextInt(20) + 5;
+            ;
+            g.setScore(s1, s2);
             games.add(g);
         }
         // List of individual games
         // individualGames
-        for (int i=0; i<2; i++)
-        {
-            Integer p1=alea.nextInt(individuals.size());
-            Integer p2=alea.nextInt(individuals.size());
-            Game g=new Game(individuals.get(p1),individuals.get(p2));
-            Integer s1=alea.nextInt(20)+5;
-            Integer s2=alea.nextInt(20)+5;;
-            g.setScore(s1,s2);
+        for (int i = 0; i < 2; i++) {
+            Integer p1 = alea.nextInt(individuals.size());
+            Integer p2 = alea.nextInt(individuals.size());
+            Game g = new Game(individuals.get(p1), individuals.get(p2));
+            Integer s1 = alea.nextInt(20) + 5;
+            Integer s2 = alea.nextInt(20) + 5;
+            ;
+            g.setScore(s1, s2);
             games.add(g);
         }
     }

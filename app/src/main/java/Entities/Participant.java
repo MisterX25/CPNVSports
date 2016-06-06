@@ -3,7 +3,7 @@ package Entities;
 /**
  * A participant to one of the tournaments. Can be either a team or a person
  */
-public abstract class Participant implements TextUI
+public abstract class Participant implements Dumpable
 {
     //=========================================== Attributes ==================================
     /**

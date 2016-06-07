@@ -1,6 +1,7 @@
 package Entities;
 
 import android.content.Context;
+import android.util.Log;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -21,29 +22,9 @@ import javax.xml.parsers.ParserConfigurationException;
  */
 public class Court implements XMLoadable, Dumpable
 {
-    private final String sourceFile = 
-            "<Courts>" +
-            "<Court>" +
-            "<id>1</id>" +
-            "<name>Plaine</name>" +
-            "<fkTournament>1</fkTournament>" +
-            "</Court>" +
-            "<Court>" +
-            "<id>2</id>" +
-            "<name>Montagne</name>" +
-            "<fkTournament>1</fkTournament>" +
-            "</Court>" +
-            "<Court>" +
-            "<id>3</id>" +
-            "<name>Fenêtre</name>" +
-            "<fkTournament>2</fkTournament>" +
-            "</Court>" +
-            "<Court>" +
-            "<id>4</id>" +
-            "<name>Gradins</name>" +
-            "<fkTournament>2</fkTournament>" +
-            "</Court>" +
-            "</Courts>";
+    private final String sourceFileName = "courts.xml";
+    private DataSource ds = null;
+
     private int id;
     private String name;
     private int fkTournament;
@@ -70,12 +51,19 @@ public class Court implements XMLoadable, Dumpable
         this.fkTournament = fkTournament;
     }
 
-    public Court()
+    public Court(Context context)
     {
+        ds = new DataSource(context,sourceFileName);
+    }
+
+    public void parseData()
+    {
+        if (!ds.isLoaded()) return;
+
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new InputSource(new StringReader(sourceFile)));
+            Document document = builder.parse(new InputSource(new StringReader(ds.getFileContent())));
             Element racine = document.getDocumentElement();
             courts = racine.getChildNodes();
         } catch (SAXException e) {
@@ -164,6 +152,11 @@ public class Court implements XMLoadable, Dumpable
     public int numberOfCandidates()
     {
         return courts.getLength();
+    }
+
+    @Override
+    public void refresh() {
+        ds.reload();
     }
 
     @Override

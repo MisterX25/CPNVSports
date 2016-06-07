@@ -38,8 +38,20 @@ public class DataSource
     {
         this.context = context;
         url = DSRC_WS_URL+"/"+fname;
+        reload();
     }
 
+    public void reload()
+    {
+        asyncLoad();
+    }
+
+    public boolean isLoaded()
+    {
+        return (fileContent != null);
+    }
+
+    // doesn't work....
     public boolean syncLoad()
     {
         RequestFuture<String> future = RequestFuture.newFuture();

@@ -61,7 +61,7 @@ public class cpnvSportsHome extends Activity
     private ArrayList<Participant> teams;
     private ArrayList<Participant> individuals;
     private ArrayList<Game> games;
-    Court myCourt = new Court();
+    Court myCourt = null;
 
     private Random alea = new Random();
 
@@ -72,6 +72,7 @@ public class cpnvSportsHome extends Activity
 
         // Application data
         initializeAppData();
+        myCourt=new Court(this);
 
         // Initialize handles
         output = (TextView) findViewById(R.id.txtOutput);
@@ -91,6 +92,7 @@ public class cpnvSportsHome extends Activity
     @Override
     public void onClick(View btn) {
 
+        myCourt.parseData();
         Button clicked = (Button) btn;
         switch (clicked.getId())
         {
@@ -110,10 +112,8 @@ public class cpnvSportsHome extends Activity
                 output.setText("Parmi: " + myCourt.numberOfCandidates());
                 break;
             case R.id.cmdButton4:
-                if (myCourt.load_index(5))
-                    output.setText("Court: "+myCourt.dump());
-                else
-                    output.setText("Court inexistant");
+                myCourt.refresh();
+                output.setText("Reloaded");
                 break;
         }
     }

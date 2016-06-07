@@ -29,4 +29,5 @@ public interface XMLoadable
     public boolean load_id (Integer id);
     public boolean load_index (int index);
     public int numberOfCandidates();
+    public void refresh();
 }

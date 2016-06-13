@@ -23,23 +23,19 @@ public class Court implements XMLoadable, Dumpable
 {
     private final String sourceFile = 
             "<Courts>" +
-            "<Court>" +
-            "<id>1</id>" +
+            "<Court id=\"1\">" +
             "<name>Plaine</name>" +
             "<fkTournament>1</fkTournament>" +
             "</Court>" +
-            "<Court>" +
-            "<id>2</id>" +
+            "<Court id=\"2\">" +
             "<name>Montagne</name>" +
             "<fkTournament>1</fkTournament>" +
             "</Court>" +
-            "<Court>" +
-            "<id>3</id>" +
+            "<Court id=\"3\">" +
             "<name>Fenêtre</name>" +
             "<fkTournament>2</fkTournament>" +
             "</Court>" +
-            "<Court>" +
-            "<id>4</id>" +
+            "<Court id=\"7\">" +
             "<name>Gradins</name>" +
             "<fkTournament>2</fkTournament>" +
             "</Court>" +
@@ -49,6 +45,8 @@ public class Court implements XMLoadable, Dumpable
     private int fkTournament;
 
     private NodeList courts; // Parsed XML
+    private Element racine;
+    private Document document;
 
     public void setId(int id) { this.id = id; }
 
@@ -75,8 +73,8 @@ public class Court implements XMLoadable, Dumpable
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new InputSource(new StringReader(sourceFile)));
-            Element racine = document.getDocumentElement();
+            document = builder.parse(new InputSource(new StringReader(sourceFile)));
+            racine = document.getDocumentElement();
             courts = racine.getChildNodes();
         } catch (SAXException e) {
             e.printStackTrace();
@@ -93,67 +91,27 @@ public class Court implements XMLoadable, Dumpable
     @Override
     public boolean load_id(Integer id)
     {
-        Integer foundId=0;
-        Integer foundFkTournament=0;
-        String foundName="";
-
-        for (int n=0; n<courts.getLength(); n++)
+        Element n = document.getElementById(String.valueOf(id));
+        if (n != null)
         {
-            Node subnode = courts.item(n);
-            if (subnode.getNodeType() == Node.ELEMENT_NODE)
-            {
-                NodeList attributes = subnode.getChildNodes();
-                for (int a=0; a<attributes.getLength(); a++)
-                {
-                    Node attr = attributes.item(a);
-                    if (attr.getNodeType() == Node.ELEMENT_NODE)
-                    {
-                        switch (attr.getNodeName())
-                        {
-                            case "id": foundId=Integer.parseInt(attr.getFirstChild().getNodeValue()); break;
-                            case "name": foundName = attr.getFirstChild().getNodeValue(); break;
-                            case "fkTournament": foundFkTournament = Integer.parseInt(attr.getFirstChild().getNodeValue()); break;
-                        }
-                    }
-                }
-                if (foundId == id)
-                {
-                    this.id = foundId;
-                    this.name=foundName;
-                    this.fkTournament=foundFkTournament;
-                    return true;
-                }
-            }
+            this.id = id;
+            this.name=n.getChildNodes().item(0).getFirstChild().getNodeValue();
+            this.fkTournament = Integer.parseInt(n.getChildNodes().item(1).getFirstChild().getNodeValue());
+            return true;
         }
-        return false;
+        else
+            return false;
     }
 
     @Override
     public boolean load_index(int index)
     {
-        Integer foundId=0;
-        Integer foundFkTournament=0;
-        String foundName="";
-
         if (index < courts.getLength())
         {
-            NodeList attributes = courts.item(index).getChildNodes();
-            for (int a=0; a<attributes.getLength(); a++)
-            {
-                Node attr = attributes.item(a);
-                if (attr.getNodeType() == Node.ELEMENT_NODE)
-                {
-                    switch (attr.getNodeName())
-                    {
-                        case "id": foundId=Integer.parseInt(attr.getFirstChild().getNodeValue()); break;
-                        case "name": foundName = attr.getFirstChild().getNodeValue(); break;
-                        case "fkTournament": foundFkTournament = Integer.parseInt(attr.getFirstChild().getNodeValue()); break;
-                    }
-                }
-            }
-            this.id = foundId;
-            this.name=foundName;
-            this.fkTournament=foundFkTournament;
+            Element n = (Element)courts.item(index);
+            this.id = Integer.parseInt(n.getAttribute("id"));
+            this.name=n.getChildNodes().item(0).getFirstChild().getNodeValue();
+            this.fkTournament = Integer.parseInt(n.getChildNodes().item(1).getFirstChild().getNodeValue());
             return true;
         }
         else

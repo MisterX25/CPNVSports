@@ -1,0 +1,94 @@
+<Pools>
+	<Pool>
+		<id>1</id>
+		<name>Groupe A</name>
+		<fkTeam slot="1">1</fkTeam>
+		<fkTeam slot="2">2</fkTeam>
+		<fkTeam slot="3">3</fkTeam>
+		<fkTeam slot="4">4</fkTeam>
+		<fkTournament>1</fkTournament>
+	</Pool>
+	<Pool>
+		<id>2</id>
+		<name>Groupe B</name>
+		<fkTeam slot="1">5</fkTeam>
+		<fkTeam slot="2">6</fkTeam>
+		<fkTeam slot="3">7</fkTeam>
+		<fkTeam slot="4">8</fkTeam>
+		<fkTournament>1</fkTournament>
+	</Pool>
+	<Pool>
+		<id>3</id>
+		<name>Winners</name>
+		<fkTeam slot="1">P1.R1</fkTeam>
+		<fkTeam slot="2">P1.R2</fkTeam>
+		<fkTeam slot="3">P2.R1</fkTeam>
+		<fkTeam slot="4">P2.R2</fkTeam>
+		<fkTournament>1</fkTournament>
+	</Pool>
+	<Pool>
+		<id>4</id>
+		<name>Losers</name>
+		<fkTeam slot="1">P1.R3</fkTeam>
+		<fkTeam slot="2">P1.R4</fkTeam>
+		<fkTeam slot="3">P2.R3</fkTeam>
+		<fkTeam slot="4">P2.R4</fkTeam>
+		<fkTournament>1</fkTournament>
+	</Pool>
+	<Pool>
+		<id>5</id>
+		<name>Poule 1</name>
+		<fkTeam slot="1">9</fkTeam>
+		<fkTeam slot="2">10</fkTeam>
+		<fkTeam slot="3">11</fkTeam>
+		<fkTeam slot="4">12</fkTeam>
+		<fkTournament>2</fkTournament>
+	</Pool>
+	<Pool>
+		<id>6</id>
+		<name>Poule 2</name>
+		<fkTeam slot="1">13</fkTeam>
+		<fkTeam slot="2">14</fkTeam>
+		<fkTeam slot="3">15</fkTeam>
+		<fkTeam slot="4">16</fkTeam>
+		<fkTournament>2</fkTournament>
+	</Pool>
+	<Pool>
+		<id>7</id>
+		<name>Poule 3</name>
+		<fkTeam slot="1">17</fkTeam>
+		<fkTeam slot="2">18</fkTeam>
+		<fkTeam slot="3">19</fkTeam>
+		<fkTeam slot="4">20</fkTeam>
+		<fkTournament>2</fkTournament>
+	</Pool>
+	<Pool>
+		<id>8</id>
+		<name>Pour le titre</name>
+		<fkTeam slot="1">P5.R1</fkTeam>
+		<fkTeam slot="2">P5.R2</fkTeam>
+		<fkTeam slot="3">P6.R1</fkTeam>
+		<fkTeam slot="4">P6.R2</fkTeam>
+		<fkTeam slot="5">P7.R1</fkTeam>
+		<fkTeam slot="6">P7.R2</fkTeam>
+		<fkTournament>2</fkTournament>
+	</Pool>
+	<Pool>
+		<id>9</id>
+		<name>Pour le plaisir</name>
+		<fkTeam slot="1">P5.R3</fkTeam>
+		<fkTeam slot="2">P5.R4</fkTeam>
+		<fkTeam slot="3">P6.R3</fkTeam>
+		<fkTeam slot="4">P6.R4</fkTeam>
+		<fkTeam slot="5">P7.R3</fkTeam>
+		<fkTeam slot="6">P7.R4</fkTeam>
+		<fkTournament>2</fkTournament>
+	</Pool>
+	<Pool>
+		<id>10</id>
+		<name>Finale</name>
+		<fkTeam slot="1">P8.R1</fkTeam>
+		<fkTeam slot="2">P8.R2</fkTeam>
+		<fkTournament>2</fkTournament>
+	</Pool>
+</Pools>

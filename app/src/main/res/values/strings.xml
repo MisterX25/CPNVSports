@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">CPNVSports</string>
-    <string name="app_version">06b-XMLLoad-Hardcode</string>
+    <string name="app_version">Base pour evaluation</string>
 
-    <string name="cmd1Text">Court id=1</string>
-    <string name="cmd2Text">4ème court</string>
-    <string name="cmd3Text">Nombre</string>
-    <string name="cmd4Text">Fail</string>
+    <string name="cmd1Text">Question 1</string>
+    <string name="cmd2Text">Question 2</string>
+    <string name="cmd3Text">Question 3</string>
+    <string name="cmd4Text">Question 4</string>
 </resources>

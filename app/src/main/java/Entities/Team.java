@@ -42,7 +42,6 @@ public class Team extends Participant
      * Returns a full description of the team
      * @return
      */
-    @Override
     public String dump() {
         String res = "Equipe: "+getPseudo()+"\nCapitaine: "+getCaptain().dump()+"\nJoueurs:";
         int n=0;

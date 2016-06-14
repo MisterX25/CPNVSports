@@ -3,7 +3,7 @@ package Entities;
 /**
  * Created by Xavier on 17.05.16.
  */
-public class Game implements Dumpable
+public class Game
 {
     //=========================================== Attributes ==================================
 

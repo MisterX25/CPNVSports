@@ -2,8 +2,8 @@
     <string name="app_name">CPNVSports</string>
     <string name="app_version">Base pour evaluation</string>
 
-    <string name="cmd1Text">Question 1</string>
-    <string name="cmd2Text">Question 2</string>
-    <string name="cmd3Text">Question 3</string>
-    <string name="cmd4Text">Question 4</string>
+    <string name="cmd1Text">Equipes</string>
+    <string name="cmd2Text">Matches de ...</string>
+    <string name="cmd3Text">Coaches</string>
+    <string name="cmd4Text">Coach de ...</string>
 </resources>

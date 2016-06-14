@@ -3,7 +3,7 @@ package Entities;
 /**
  * A participant to one of the tournaments. Can be either a team or a person
  */
-public abstract class Participant implements Dumpable
+public abstract class Participant
 {
     //=========================================== Attributes ==================================
     /**
@@ -25,5 +25,11 @@ public abstract class Participant implements Dumpable
     public void setPseudo(String pseudo)
     {
         this.pseudo = pseudo;
+    }
+
+    //=========================================== Getters/Setters ==================================
+    public String dump()
+    {
+        return pseudo;
     }
 }

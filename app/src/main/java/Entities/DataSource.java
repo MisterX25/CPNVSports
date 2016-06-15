@@ -16,7 +16,7 @@ import java.util.Random;
 public class DataSource
 {
     private ArrayList<Team> teams;
-    ArrayList<Game> games;
+    private ArrayList<Game> games;
 
     /**---------------------------------------------------------------------------------------------
      * Class constructor

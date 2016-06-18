@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86,armeabi-v7a"
-    api-level="19"
-    density="mdpi"
+    abi="x86"
+    api-level="22"
+    density="xhdpi"
     format="7"
-    timestamp="1465887507902399000" >
+    timestamp="1466245582378231000" >
 
     <task
         name="javac"
-        duration="576" />
+        duration="2736" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="189" />
+        duration="702" />
     <task
         name="verifier"
-        duration="48" />
+        duration="47" />
 
     <artifact
         location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="1465887507902399000" >
+    <build timestamp="1466245582378231000" >
         <artifact
             location="/Users/Xavier/Documents/Android/Studio/Projects/CPNVSports/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

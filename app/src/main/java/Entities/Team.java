@@ -10,7 +10,15 @@ public class Team extends Participant
     //=========================================== Attributes =======================================
     private Person captain;
     private ArrayList<Person> roster; // Players of the team, without the captain
+    private Coach coach;
 
+    public Coach getCoach() {
+        return coach;
+    }
+
+    public void setCoach(Coach coach) {
+        this.coach = coach;
+    }
     //=========================================== Constructors =====================================
 
     public Team(String pseudo, Person captain)
@@ -50,6 +58,37 @@ public class Team extends Participant
             n++;
             res += ("\n"+ n + ": "+ teammate.dump());
         }
+        return res;
+    }
+
+    /** ............................................................................................
+     * Returns a full description of the team
+     * @return
+     */
+    public String dumpShort() {
+        String res =  getPseudo()+"(";
+        int nTeachers = 0;
+        int nStudents = 0;
+        for (Person teammate: roster)
+        {
+            if (teammate.getClass() == Teacher.class) nTeachers++;
+            if (teammate.getClass() == Student.class) nStudents++;
+        }
+        res += ((nTeachers+nStudents)+" personne");
+        if (nTeachers+nStudents != 1) res += "s";
+        if (nTeachers == 0)
+            res += ", que des élèves";
+        else
+            if (nStudents == 0)
+                res += ", que des profs";
+            else
+            {
+                res += (nTeachers+" prof");
+                if (nTeachers > 1) res += "s";
+                res += (" et "+nStudents+" élève");
+                if (nStudents > 1) res += "s";
+            }
+        res += ")";
         return res;
     }
 

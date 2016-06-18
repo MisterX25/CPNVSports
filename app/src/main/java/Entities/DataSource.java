@@ -1,41 +1,11 @@
 package Entities;
 
 import android.content.Context;
-import android.os.AsyncTask;
-import android.util.Log;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.RequestFuture;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.StringReader;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Random;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import ch.cpnv.cpnvsports.R;
 
 /**
  * Dummy class whos only purpose is to provide hardcoded application data
@@ -46,7 +16,67 @@ import ch.cpnv.cpnvsports.R;
 public class DataSource
 {
     private ArrayList<Team> teams;
-    ArrayList<Game> games;
+    private ArrayList<Game> games;
+    private ArrayList<Person> people;
+    private ArrayList<Coach> coaches;
+
+    public ArrayList<Team> getTeams() {
+        return teams;
+    }
+
+    public ArrayList<Game> getGames() {
+        return games;
+    }
+
+    public ArrayList<Person> getPeople() {
+        return people;
+    }
+
+    public String getFullNameByLastName(String guy)
+    {
+        String res = null;
+        for (Person p:people)
+            if (p.getLastname().toUpperCase().equals(guy.toUpperCase()))
+                return p.dump();
+        return res;
+    }
+
+    public String getCoachFullNameByLastName(String guy)
+    {
+        String res = null;
+        for (Person p:coaches)
+            if (p.getLastname().toUpperCase().equals(guy.toUpperCase()))
+                return p.dump();
+        return res;
+    }
+
+    public String gamesOf(String guy)
+    {
+        String res = "";
+        for (Game g:games)
+        {
+            Team t1 = (Team)g.getContender1();
+            Team t2 = (Team)g.getContender2();
+            for (Person p:t1.getRoster())
+                if (p.getLastname().toUpperCase().equals(guy.toUpperCase()))
+                    res += ("\n"+g.dump());
+            for (Person p:t2.getRoster())
+                if (p.getLastname().toUpperCase().equals(guy.toUpperCase()))
+                    res += ("\n"+g.dump());
+            if (t1.getCaptain().getLastname().toUpperCase().equals(guy.toUpperCase()))
+                res += ("\n"+g.dump());
+            if (t2.getCaptain().getLastname().toUpperCase().equals(guy.toUpperCase()))
+                res += ("\n"+g.dump());
+        }
+        if (res.isEmpty())
+            return null;
+        else
+            return res;
+    }
+
+    public ArrayList<Coach> getCoaches() {
+        return coaches;
+    }
 
     /**---------------------------------------------------------------------------------------------
      * Class constructor
@@ -158,6 +188,10 @@ public class DataSource
         people.add(new Student("Noble", "Walsh", "Media"));
         people.add(new Student("Grady", "Rowe", "Media"));
         people.add(new Student("Eugenia", "Vega", "Media"));
+
+        this.people = new ArrayList<Person>();
+        for (Person p:people) this.people.add(p);
+
 
         // list of pseudos
         String[] pseudos = {
@@ -293,7 +327,7 @@ public class DataSource
         Iterator<String> pseudo = Arrays.asList(pseudos).iterator();
         for (Person p : people) p.setPseudo(pseudo.next());
 
-        // Teacher teams
+        // Teams
         teams = new ArrayList<Team>();
         for (int nt = 0; nt < nbTeams; nt++) {
             Team aTeam = new Team(pseudo.next(), people.get(alea.nextInt(people.size())));
@@ -306,6 +340,23 @@ public class DataSource
             }
             teams.add(aTeam);
         }
+
+        // Coaches
+        coaches.add(new Coach("Joachim","Lowe"));
+        coaches.add(new Coach("Jose","Mouninho"));
+        coaches.add(new Coach("Jimmy","Connors"));
+        coaches.add(new Coach("Stefan","Edberg"));
+        coaches.add(new Coach("Phil","Jackson"));
+        coaches.add(new Coach("Brandon","Stark"));
+        coaches.add(new Coach("Maxime","Bossis"));
+        coaches.add(new Coach("Lucien","Favre"));
+        coaches.add(new Coach("John","Rambo"));
+        coaches.add(new Coach("Ted","Cruz"));
+        coaches.add(new Coach("Bernard","Narbel"));
+
+        coaches.add(new Coach("François","Mauron"));
+
+        for (int i=0; i< 10; i++) teams.get(i).setCoach(coaches.get(i));
 
         // List of games
         games = new ArrayList<Game>();
@@ -320,6 +371,7 @@ public class DataSource
                 }
             }
         }
+
     }
 
 }

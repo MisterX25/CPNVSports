@@ -12,6 +12,13 @@ public class Game
     private Integer score1;
     private Integer score2;
 
+    public Participant getContender1() {
+        return contender1;
+    }
+
+    public Participant getContender2() {
+        return contender2;
+    }
     //=========================================== Constructors ==================================
 
     /**

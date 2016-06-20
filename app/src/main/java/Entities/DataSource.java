@@ -24,29 +24,20 @@ public class DataSource
         return teams;
     }
 
-    public ArrayList<Game> getGames() {
-        return games;
-    }
-
-    public ArrayList<Person> getPeople() {
-        return people;
-    }
+    /**---------------------------------------------------------------------------------------------
+     * Some specific getters
+     */
 
     public String getFullNameByLastName(String guy)
     {
         String res = null;
         for (Person p:people)
             if (p.getLastname().toUpperCase().equals(guy.toUpperCase()))
-                return p.dump();
-        return res;
-    }
-
-    public String getCoachFullNameByLastName(String guy)
-    {
-        String res = null;
-        for (Person p:coaches)
+                return p.getFirstname()+" "+p.getLastname();
+        // Look in coach list too
+        for (Coach p:coaches)
             if (p.getLastname().toUpperCase().equals(guy.toUpperCase()))
-                return p.dump();
+                return p.getFirstname()+" "+p.getLastname();
         return res;
     }
 
@@ -342,6 +333,7 @@ public class DataSource
         }
 
         // Coaches
+        coaches = new ArrayList<Coach>();
         coaches.add(new Coach("Joachim","Lowe"));
         coaches.add(new Coach("Jose","Mouninho"));
         coaches.add(new Coach("Jimmy","Connors"));
@@ -353,7 +345,6 @@ public class DataSource
         coaches.add(new Coach("John","Rambo"));
         coaches.add(new Coach("Ted","Cruz"));
         coaches.add(new Coach("Bernard","Narbel"));
-
         coaches.add(new Coach("François","Mauron"));
 
         for (int i=0; i< 10; i++) teams.get(i).setCoach(coaches.get(i));

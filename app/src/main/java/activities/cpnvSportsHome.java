@@ -9,43 +9,22 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 import Entities.Coach;
-import Entities.Court;
 import Entities.DataSource;
-import Entities.Game;
-import Entities.Participant;
-import Entities.Person;
-import Entities.Student;
-import Entities.Teacher;
 import Entities.Team;
 import ch.cpnv.cpnvsports.R;
 
 public class cpnvSportsHome extends Activity
         implements View.OnClickListener {
 
-    // Constants
-    private final int nbStudentTeams = 8;
-    private final int nbTeacherTeams = 2;
-
     // infrastructure
     private Button btn; // Handle on button
     private TextView output; // handle on output zone
     private EditText input;
-    private Context context; // For toasts
 
-    // application
-    private ArrayList<Teacher> teachers;
-    private ArrayList<Student> students;
-    private ArrayList<Participant> teams;
-    private ArrayList<Participant> individuals;
-    private ArrayList<Game> games;
-
-    Court myCourt = new Court();
-
-    private Random alea = new Random();
+    // Application data
     DataSource data = null;
 
     @Override
@@ -105,12 +84,12 @@ public class cpnvSportsHome extends Activity
                     for (Team t:data.getTeams())
                         if (t.getCoach() == c)
                         {
-                            output.setText(c.getFirstname() + " " + c.getLastname() + " coache " + t.getPseudo());
+                            output.setText(output.getText()+"\n"+c.getFirstname() + " " + c.getLastname() + " coache " + t.getPseudo());
                             hasTeam=true;
                             break;
                         }
                     if (!hasTeam)
-                        output.setText(c.getFirstname() + " " + c.getLastname() + " ne coache aucune équipe");
+                        output.setText(output.getText()+"\n"+c.getFirstname() + " " + c.getLastname() + " ne coache aucune équipe");
                 }
                 break;
             case R.id.cmdButton4:
@@ -118,19 +97,22 @@ public class cpnvSportsHome extends Activity
                     Toast.makeText(cpnvSportsHome.this, "Introduisez un nom!", Toast.LENGTH_SHORT).show();
                 else
                 {
-                    String guy = data.getCoachFullNameByLastName(input.getText().toString());
+                    String guy = data.getFullNameByLastName(input.getText().toString());
                     if (guy == null)
                         Toast.makeText(cpnvSportsHome.this, "Inconnu au bataillon!", Toast.LENGTH_SHORT).show();
                     else
                     {
                         boolean hasTeam = false;
                         for (Team t : data.getTeams())
-                            if (t.getCoach().getLastname().toUpperCase().equals(input.getText().toString().toUpperCase()))
+                        {
+                            Coach c = t.getCoach();
+                            if ((c != null) && c.getLastname().toUpperCase().equals(input.getText().toString().toUpperCase()))
                             {
                                 output.setText(guy + " coache " + t.getPseudo());
                                 hasTeam = true;
                                 break;
                             }
+                        }
                         if (!hasTeam)
                             output.setText(guy + " ne coache aucune équipe");
                     }

@@ -83,7 +83,7 @@ public class Team extends Participant
                 res += ", que des profs";
             else
             {
-                res += (nTeachers+" prof");
+                res += (", "+nTeachers+" prof");
                 if (nTeachers > 1) res += "s";
                 res += (" et "+nStudents+" élève");
                 if (nStudents > 1) res += "s";
